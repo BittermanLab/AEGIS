@@ -1,0 +1,35 @@
+name: development
+description: "Development environment using RWD dev set"
+
+paths:
+  data_dir: "data/rwd/irae_dev_set/"
+  output_base_dir: "data/rwd/dev_outputs/"
+  evaluation_dir: "evaluation_results/dev"
+  ctcae_path: "data/ctcae.json"
+
+runtime:
+  langsmith_tracing: false  # Note: Currently unused in run_sweep.py
+  debug: True
+  max_samples: 50  # Limit samples for quick iteration, handled in main.py
+  
+  # Evaluation settings
+  patient_level_eval: false  # Whether to run patient-level evaluation
+  run_gold_error_eval: false  # Whether to run gold error evaluation
+
+# Logging settings (currently unused in run_sweep.py, handled by main.py)
+logging:
+  level: "INFO"
+  save_intermediate: true
+  token_tracking: true
+
+# Evaluation settings (currently unused in run_sweep.py, handled by evaluation scripts)
+evaluation:
+  metrics:
+    - accuracy
+    - precision
+    - recall
+    - f1
+  aggregations:
+    - by_graph_type
+    - by_model_config
+    - by_prompt_variant

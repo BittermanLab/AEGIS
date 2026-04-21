@@ -1,0 +1,44 @@
+{
+    "Haematological AE-associated symptoms": {
+        "Anemia": {
+            "Definition": "A disorder characterized by a reduction in the amount of hemoglobin in 100 ml of blood.",
+            "Grade 1": "Hemoglobin (Hgb) <LLN - 10.0 g/dL; <LLN - 6.2 mmol/L; <LLN - 100 g/L",
+            "Grade 2": "Hgb <10.0 - 8.0 g/dL; <6.2 - 4.9 mmol/L; <100 - 80 g/L",
+            "Grade 3": "Hgb <8.0 g/dL; <4.9 mmol/L; <80 g/L; transfusion indicated",
+            "Grade 4": "Life-threatening consequences; urgent intervention indicated",
+            "Grade 5": "Death"
+        },
+        "Thrombocytopenia": {
+            "Definition": "A disorder characterized by a reduction in platelets in the blood.",
+            "Grade 1": "Platelet count <LLN - 75,000/mm3; <LLN - 75.0 x 10e9/L",
+            "Grade 2": "Platelet count <75,000 - 50,000/mm3; <75.0 - 50.0 x 10e9/L",
+            "Grade 3": "Platelet count <50,000 - 25,000/mm3; <50.0 - 25.0 x 10e9/L",
+            "Grade 4": "Platelet count <25,000/mm3; <25.0 x 10e9/L",
+            "Grade 5": "Death"
+        },
+        "Neutropenia": {
+            "Definition": "A disorder characterized by a decrease in neutrophils in the blood.",
+            "Grade 1": "ANC <LLN - 1500/mm3; <LLN - 1.5 x 10e9/L",
+            "Grade 2": "ANC <1500 - 1000/mm3; <1.5 - 1.0 x 10e9/L",
+            "Grade 3": "ANC <1000 - 500/mm3; <1.0 - 0.5 x 10e9/L",
+            "Grade 4": "ANC <500/mm3; <0.5 x 10e9/L",
+            "Grade 5": "Death"
+        },
+        "Febrile neutropenia": {
+            "Definition": "A disorder characterized by a decrease in neutrophils associated with fever.",
+            "Grade 1": "-",
+            "Grade 2": "-",
+            "Grade 3": "ANC <1000/mm3 with a single temperature of >38.3 degrees C (101 degrees F) or a sustained temperature of >=38 degrees C (100.4 degrees F) for more than one hour",
+            "Grade 4": "Life-threatening consequences; urgent intervention indicated",
+            "Grade 5": "Death"
+        },
+        "Lymphopenia": {
+            "Definition": "A disorder characterized by a decrease in the number of lymphocytes in the blood.",
+            "Grade 1": "Lymphocyte count <LLN - 800/mm3; <LLN - 0.8 x 10e9/L",
+            "Grade 2": "Lymphocyte count <800 - 500/mm3; <0.8 - 0.5 x 10e9/L",
+            "Grade 3": "Lymphocyte count <500 - 200/mm3; <0.5 - 0.2 x 10e9/L",
+            "Grade 4": "Lymphocyte count <200/mm3; <0.2 x 10e9/L",
+            "Grade 5": "Death"
+        }
+    }
+} 

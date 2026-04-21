@@ -1,0 +1,119 @@
+name: debug_agent_sweep
+description: "OpenAI agent processor quick debug evaluation on clinical notes"
+
+# Environment configuration
+environment_config:
+  # Import environment paths and settings
+  import: "config/environments/debug.yaml"
+  # Override only the specific settings we want to change
+  runtime:
+    max_samples: 2  # Use minimal samples for quick debugging
+    use_azure: true  # Set to false for Ollama models
+    ollama_endpoint: "http://localhost:11434/v1"
+    deployment_name: "deepseek-r1:1.5b"
+    run_gold_error_eval: false  # Skip gold error evaluation 
+  # Add explicit logging configuration
+  logging:
+    level: "DEBUG"
+    save_intermediate: true
+    token_tracking: true
+  parameters:
+    event_types:
+      - "pneumonitis"
+      - "myocarditis"
+      - "colitis"
+      - "thyroiditis"
+      - "hepatitis"
+      - "dermatitis"
+
+
+# Execution settings
+overrides:
+  max_parallel: 1  # Run sequentially for easier debugging
+  max_concurrent_runs: 4  # For OpenAI agent concurrency (if needed)
+
+# Experiment configurations
+experiments:
+
+  # Baselines
+  - name: regex_default
+    graph_type: regex
+    model_configs: 
+      - default
+    parameters:
+      configure_azure: false
+      batch_size: 100
+    prompt_variant: "default"
+    description: "Regex pattern matching baseline"
+
+  - name: zeroshot_default
+    graph_type: openai_zeroshot
+    model_configs: 
+      - 4.1-nano
+    parameters:
+      configure_azure: true
+      batch_size: 100
+    prompt_variant: "default"
+    description: "Default zeroshot configuration"
+
+  # OpenAI Agent
+  - name: openai_agent_default
+    graph_type: openai_agent
+    model_configs: 
+      - 4.1-nano
+    parameters:
+      configure_azure: true
+      batch_size: 100 
+    prompt_variant: "default"
+    description: "OpenAI Agent SDK processor with optimized settings"
+  
+  - name: openai_agent_no_judge
+    graph_type: openai_agent
+    model_configs: 
+      - 4.1-nano
+    parameters:
+      configure_azure: true
+      batch_size: 100 
+    prompt_variant: "ablation_no_judge"
+    description: "OpenAI Agent SDK processor with optimized settings"
+  
+  - name: openai_agent_single_identifier
+    graph_type: openai_agent
+    model_configs: 
+      - 4.1-nano
+    parameters:
+      configure_azure: true
+      batch_size: 100 
+    prompt_variant: "ablation_single"
+    description: "OpenAI Agent SDK processor with optimized settings"
+
+  # Split Temporality
+  - name: split_temporality_default
+    graph_type: agent_split_temporality
+    model_configs: 
+      - 4.1-nano
+    parameters:
+      force_azure_config: true
+      batch_size: 100
+    prompt_variant: "default"
+    description: "Testing split temporality workflow with separate identification and temporal classification"
+
+  - name: split_temporality_no_judge
+    graph_type: agent_split_temporality
+    model_configs: 
+      - 4.1-nano
+    parameters:
+      force_azure_config: true
+      batch_size: 100
+    prompt_variant: "ablation_no_judge"
+    description: "Testing split temporality workflow with separate identification and temporal classification"
+
+  - name: split_temporality_single_identifier
+    graph_type: agent_split_temporality
+    model_configs: 
+      - 4.1-nano
+    parameters:
+      force_azure_config: true
+      batch_size: 100
+    prompt_variant: "ablation_single"
+    description: "Testing split temporality workflow with separate identification and temporal classification"

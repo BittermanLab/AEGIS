@@ -1,0 +1,225 @@
+{
+    "Myocarditis-associated symptoms": {
+        "Atrial fibrillation": {
+            "Definition": "A disorder characterized by a dysrhythmia without discernible P waves and an irregular ventricular response due to multiple reentry circuits. The rhythm disturbance originates above the ventricles."
+        },
+        "Atrial flutter": {
+            "Definition": "A disorder characterized by a dysrhythmia with organized rhythmic atrial contractions with a rate of 200-300 beats per minute. The rhythm disturbance originates in the atria."
+        },
+        "Chest pain - cardiac": {
+            "Definition": "A disorder characterized by substernal discomfort due to insufficient myocardial oxygenation e.g., angina pectoris."
+        },
+        "Conduction disorder": {
+            "Definition": "A disorder characterized by pathological irregularities in the cardiac conduction system."
+        },
+        "Heart failure": {
+            "Definition": "A disorder characterized by the inability of the heart to pump blood at an adequate volume to meet tissue metabolic requirements, or, the ability to do so only at an elevation in the filling pressure."
+        },
+        "Left ventricular systolic dysfunction": {
+            "Definition": "A disorder characterized by failure of the left ventricle to produce adequate output."
+        },
+        "Myocarditis": {
+            "Definition": "A disorder characterized by inflammation of the muscle tissue of the heart."
+        },
+        "Palpitations": {
+            "Definition": "A disorder characterized by an unpleasant sensation of irregular and/or forceful beating of the heart."
+        },
+        "Pericardial effusion": {
+            "Definition": "A disorder characterized by fluid collection within the pericardial sac, usually due to inflammation."
+        },
+        "Pericardial tamponade": {
+            "Definition": "A disorder characterized by an increase in intrapericardial pressure due to the collection of blood or fluid in the pericardium."
+        },
+        "Pericarditis": {
+            "Definition": "A disorder characterized by irritation to the layers of the pericardium (the protective sac around the heart)."
+        },
+        "Restrictive cardiomyopathy": {
+            "Definition": "A disorder characterized by an inability of the ventricles to fill with blood because the myocardium (heart muscle) stiffens and loses its flexibility."
+        },
+        "Right ventricular dysfunction": {
+            "Definition": "A disorder characterized by impairment of right ventricular function associated with low ejection fraction and a decrease in motility of the right ventricular wall."
+        },
+        "Ventricular fibrillation": {
+            "Definition": "A disorder characterized by a dysrhythmia without discernible QRS complexes due to rapid repetitive excitation of myocardial fibers without coordinated contraction of the ventricles."
+        },
+        "Ventricular tachycardia": {
+            "Definition": "A disorder characterized by a dysrhythmia with a heart rate greater than 100 beats per minute that originates distal to the bundle of His."
+        },
+        "Cardiac troponin I increased": {
+            "Definition": "A finding based on laboratory test results that indicate increased levels of cardiac troponin I in a biological specimen."
+        },
+        "Cardiac troponin T increased": {
+            "Definition": "A finding based on laboratory test results that indicate increased levels of cardiac troponin T in a biological specimen."
+        },
+        "Electrocardiogram QT corrected interval prolonged": {
+            "Definition": "A finding of a cardiac dysrhythmia characterized by an abnormally long corrected QT interval."
+        },
+        "Electrocardiogram T wave abnormal": {
+            "Definition": "A disorder characterized by Electrocardiogram T wave amplitude changes."
+        }
+
+    },
+    "Thryoiditis-associated symptoms": {
+        "Hyperthyroidism": {
+            "Definition": "A disorder characterized by excessive levels of thyroid hormone in the body. Common causes include an overactive thyroid gland or thyroid hormone overdose."
+        },
+        "Hypothyroidism": {
+            "Definition": "A disorder characterized by a decrease in production of thyroid hormone by the thyroid gland."
+        },
+        "Thyroid stimulating hormone increased": {
+            "Definition": "A disorder characterized by an increase in thyroid stimulating hormone."
+        }
+    },
+    "Colitis-associated symptoms": {
+        "Abdominal pain": {
+            "Definition": "A disorder characterized by a sensation of marked discomfort in the abdominal region."
+        },
+        "Bloating": {
+            "Definition": "A disorder characterized by subject-reported feeling of uncomfortable fullness of the abdomen."
+        },
+        "Colitis": {
+            "Definition": "A disorder characterized by inflammation of the colon."
+        },
+        "Colonic hemorrhage": {
+            "Definition": "A disorder characterized by bleeding from the colon."
+        },
+        "Colonic perforation": {
+            "Definition": "A disorder characterized by a rupture in the colonic wall."
+        },
+        "Colonic ulcer": {
+            "Definition": "A disorder characterized by a circumscribed, erosive lesion on the mucosal surface of the colon."
+        },
+        "Diarrhea": {
+            "Definition": "A disorder characterized by an increase in frequency and/or loose or watery bowel movements."
+        },
+        "Enterocolitis": {
+            "Definition": "A disorder characterized by inflammation of the small and large intestines."
+        },
+        "Fecal incontinence": {
+            "Definition": "A disorder characterized by inability to control the escape of stool from the rectum."
+        },
+        "Proctitis": {
+            "Definition": "A disorder characterized by inflammation of the rectum."
+        },
+        "Rectal mucositis": {
+            "Definition": "A disorder characterized by ulceration or inflammation of the mucous membrane of the rectum."
+        },
+        "Typhlitis": {
+            "Definition": "A disorder characterized by necrotizing enterocolitis in neutropenic patients."
+        }
+    },
+    "Hepatitis-associated symptoms": {
+        "Budd-Chiari syndrome": {
+            "Definition": "A disorder characterized by occlusion of the hepatic veins and typically presents with abdominal pain, ascites and hepatomegaly."
+        },
+        "Hepatic failure": {
+            "Definition": "A disorder characterized by the inability of the liver to metabolize chemicals in the body. Laboratory test results reveal abnormal plasma levels of ammonia, bilirubin, lactic dehydrogenase, alkaline phosphatase, aminotransferase, and/or prolongation of prothrombin time (INR.) Drug-induced liever injury (DILI) as defined by Hy's Law."
+        },
+        "Hepatic hemorrhage": {
+            "Definition": "A disorder characterized by bleeding from the liver."
+        },
+        "Hepatic necrosis": {
+            "Definition": "A disorder characterized by a necrotic process occurring in the hepatic parenchyma."
+        },
+        "Hepatic pain": {
+            "Definition": "A disorder characterized by a sensation of marked discomfort in the liver region."
+        },
+        "Sinusoidal obstruction syndrome": {
+            "Definition": "A disorder characterized by severe hepatic injury as a result of the blood vessels of the liver becoming inflamed and/or blocked."
+        },
+        "Alanine aminotransferase increased": {
+            "Definition": "A finding based on laboratory test results that indicate an increase in the level of alanine aminotransferase (ALT or SGPT) in the blood specimen."
+        },
+        "Alkaline phosphatase increased": {
+            "Definition": "A finding based on laboratory test results that indicate an increase in the level of alkaline phosphatase in a blood specimen."
+        },
+        "Aspartate aminotransferase increased": {
+            "Definition": "A finding based on laboratory test results that indicate an increase in the level of aspartate aminotransferase (AST or SGOT) in a blood specimen."
+        },
+        "Blood bilirubin increased": {
+            "Definition": "A finding based on laboratory test results that indicate an abnormally high level of bilirubin in the blood. Excess bilirubin is associated with jaundice."
+        }
+    },
+    "Pneumonitis-associated symptoms": {
+        "Adult respiratory distress syndrome": {
+            "Definition": "A disorder characterized by progressive and life-threatening pulmonary distress in the absence of an underlying pulmonary condition, usually following major trauma or surgery."
+        },
+        "Aspiration": {
+            "Definition": "A disorder characterized by inhalation of solids or liquids into the lungs."
+        },
+        "Atelectasis": {
+            "Definition": "A disorder characterized by the collapse of part or the entire lung."
+        },
+        "Bronchopulmonary hemorrhage": {
+            "Definition": "A disorder characterized by bleeding from the bronchial wall and/or lung parenchyma."
+        },
+        "Cough": {
+            "Definition": "A disorder characterized by sudden, often repetitive, spasmodic contraction of the thoracic cavity, resulting in violent release of air from the lungs and usually accompanied by a distinctive sound."
+        },
+        "Dyspnea": {
+            "Definition": "A disorder characterized by an uncomfortable sensation of difficulty breathing."
+        },
+        "Hypoxia": {
+            "Definition": "A disorder characterized by a decrease in the level of oxygen in the body."
+        },
+        "Pleural effusion": {
+            "Definition": "A disorder characterized by an increase in amounts of fluid within the pleural cavity. Symptoms include shortness of breath, cough and marked chest discomfort."
+        },
+        "Pleuritic pain": {
+            "Definition": "A disorder characterized by a sensation of marked discomfort in the pleura."
+        },
+        "Pneumonitis": {
+            "Definition": "A disorder characterized by inflammation focally or diffusely affecting the lung parenchyma."
+        },
+        "Pulmonary edema": {
+            "Definition": "A disorder characterized by accumulation of fluid in the lung tissues that causes a disturbance of the gas exchange that may lead to respiratory failure."
+        },
+        "Pulmonary fibrosis": {
+            "Definition": "A disorder characterized by the replacement of the lung tissue by connective tissue, leading to progressive dyspnea, respiratory failure or right heart failure."
+        },
+        "Respiratory failure": {
+            "Definition": "A disorder characterized by impaired gas exchange by the respiratory system resulting in hypoxia and a decrease in oxygenation of the tissues that may be associated with an increase in arterial levels of carbon dioxide."
+        }
+    },
+    "Dermatitis-associated symptoms": {
+        "Bullous dermatitis": {
+            "Definition": "A disorder characterized by inflammation of the skin characterized by the presence of bullae which are filled with fluid."
+        },
+        "Dry skin": {
+            "Definition": "A disorder characterized by flaky and dull skin; the pores are generally fine, the texture is a papery thin texture."
+        },
+        "Eczema": {
+            "Definition": "A disorder characterized by skin which becomes itchy, red, inflamed, crusty, thick, scaly, and/or forms blisters."
+        },
+        "Erythema multiforme": {
+            "Definition": "A disorder characterized by target lesions (a pink-red ring around a pale center)."
+        },
+        "Erythroderma": {
+            "Definition": "A disorder characterized by generalized inflammatory erythema and exfoliation. The inflammatory process involves > 90% of the body surface area."
+        },
+        "Pain of skin": {
+            "Definition": "A disorder characterized by a sensation of marked discomfort in the skin."
+        },
+        "Pruritus": {
+            "Definition": "A disorder characterized by an intense itching sensation."
+        },
+        "Rash acneiform": {
+            "Definition": "A disorder characterized by an eruption of papules and pustules, typically appearing in face, scalp, upper chest and back."
+        },
+        "Rash maculo-papular": {
+            "Definition": "A disorder characterized by the presence of macules (flat) and papules (elevated). Also known as morbillform rash, it is one of the most common cutaneous adverse events, frequently affecting the upper trunk, spreading centripetally and associated with pruritis."
+        },
+        "Skin ulceration": {
+            "Definition": "A disorder characterized by a circumscribed, erosive lesion on the skin."
+        },
+        "Stevens-Johnson syndrome": {
+            "Definition": "A disorder characterized by less than 10% total body skin area separation of dermis. The syndrome is thought to be a hypersensitivity complex affecting the skin and the mucous membranes."
+        },
+        "Toxic epidermal necrolysis": {
+            "Definition": "A disorder characterized by greater than 30% total body skin area separation of dermis. The syndrome is thought to be a hypersensitivity complex affecting the skin and the mucous membranes."
+        },
+        "Urticaria": {
+            "Definition": "A disorder characterized by an itchy skin eruption characterized by wheals with pale interiors and well-defined red margins."
+        }
+    }
+}

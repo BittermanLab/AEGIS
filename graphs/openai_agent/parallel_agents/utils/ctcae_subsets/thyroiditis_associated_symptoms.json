@@ -1,0 +1,28 @@
+{
+    "Thyroiditis-associated symptoms": {
+        "Hyperthyroidism": {
+            "Definition": "A disorder characterized by excessive levels of thyroid hormone in the body. Common causes include an overactive thyroid gland or thyroid hormone overdose.",
+            "Grade 1": "Asymptomatic; clinical or diagnostic observations only; intervention not indicated",
+            "Grade 2": "Symptomatic; thyroid suppression therapy indicated; limiting instrumental ADL",
+            "Grade 3": "Severe symptoms; limiting self care ADL; hospitalization indicated",
+            "Grade 4": "Life-threatening consequences; urgent intervention indicated",
+            "Grade 5": "Death"
+        },
+        "Hypothyroidism": {
+            "Definition": "A disorder characterized by a decrease in production of thyroid hormone by the thyroid gland.",
+            "Grade 1": "Asymptomatic; clinical or diagnostic observations only; intervention not indicated",
+            "Grade 2": "Symptomatic; thyroid replacement indicated; limiting instrumental ADL",
+            "Grade 3": "Severe symptoms; limiting self care ADL; hospitalization indicated",
+            "Grade 4": "Life-threatening consequences; urgent intervention indicated",
+            "Grade 5": "Death"
+        },
+        "Thyroid stimulating hormone increased": {
+            "Definition": "A disorder characterized by an increase in thyroid stimulating hormone.",
+            "Grade 1": "TSH increased and no intervention initiated",
+            "Grade 2": " -",
+            "Grade 3": " -",
+            "Grade 4": " -",
+            "Grade 5": " -"
+        }
+    }
+}

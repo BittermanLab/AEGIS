@@ -1,0 +1,44 @@
+name: local_ollama_evaluation
+description: "Ollama processor quick debug evaluation on clinical notes"
+
+  
+# Environment configuration
+environment_config:
+  # Import environment paths and settings
+  import: "config/environments/debug.yaml"
+  # Override only the specific settings we want to change
+  runtime:
+    max_samples: 2  # Use minimal samples for quick debugging
+    use_azure: true  # Set to false for Ollama models
+    ollama_endpoint: "http://localhost:11434/v1"
+    deployment_name: "deepseek-r1:1.5b"
+    run_gold_error_eval: false  # Skip gold error evaluation 
+  # Add explicit logging configuration
+  logging:
+    level: "DEBUG"
+    save_intermediate: true
+    token_tracking: true
+  parameters:
+    event_types:
+      - "pneumonitis"
+      - "myocarditis"
+      - "colitis"
+      - "thyroiditis"
+      - "hepatitis"
+      - "dermatitis"
+
+# Execution settings
+overrides:
+  max_parallel: 1  # Run sequentially for easier debugging
+  max_concurrent_runs: 1  # For OpenAI agent concurrency (if needed)
+
+experiments:
+  - name: ollama_deepseek_1b_test
+    graph_type: openai_agent
+    model_configs: 
+      - ollama-qwen3-14b
+    parameters:
+      force_azure_config: true
+      batch_size: 5
+    prompt_variant: "default"
+    description: "Testing default configuration for ollama agent processor"

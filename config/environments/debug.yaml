@@ -1,0 +1,34 @@
+name: debug
+description: "Debug environment using synthetic data"
+
+paths:
+  data_dir: "data/synthetic_notes/"
+  output_base_dir: "data/synthetic_outputs/"
+  evaluation_dir: "evaluation_results/synthetic"
+  ctcae_path: "data/ctcae.json"
+
+runtime:
+  langsmith_tracing: false  # Note: Currently unused in run_sweep.py
+  debug: true
+  max_samples: 50  # Limit samples for quick iteration, note: Currently processed in main.py, not run_sweep.py
+  
+  # Evaluation settings
+  patient_level_eval: false  # Whether to run patient-level evaluation
+  run_gold_error_eval: false  # Whether to run gold error evaluation
+
+# Logging settings (currently unused in run_sweep.py, handled by main.py)
+logging:
+  level: "DEBUG"
+  save_intermediate: true
+  token_tracking: true
+
+# Evaluation settings (currently unused in run_sweep.py, handled by evaluation scripts)
+evaluation:
+  metrics:
+    - accuracy
+    - precision
+    - recall
+    - f1
+  aggregations:
+    - by_graph_type
+    - by_model_config

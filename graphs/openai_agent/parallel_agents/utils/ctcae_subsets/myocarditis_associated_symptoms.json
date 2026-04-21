@@ -1,0 +1,212 @@
+{
+    "Myocarditis-associated symptoms": {
+        "Asystole": {
+            "Definition": "A disorder characterized by a dysrhythmia without cardiac electrical activity. Typically, this is accompanied by cessation of the pumping function of the heart.",
+            "Grade 1": "Periods of asystole; non-urgent medical management indicated",
+            "Grade 2": " -",
+            "Grade 3": " -",
+            "Grade 4": "Life-threatening consequences; urgent intervention indicated",
+            "Grade 5": "Death"
+        },
+        "Atrial fibrillation": {
+            "Definition": "A disorder characterized by a dysrhythmia without discernible P waves and an irregular ventricular response due to multiple reentry circuits. The rhythm disturbance originates above the ventricles.",
+            "Grade 1": "Asymptomatic, intervention not indicated",
+            "Grade 2": "Non-urgent medical intervention indicated",
+            "Grade 3": "Symptomatic, urgent intervention indicated; device (e.g., pacemaker); ablation; new onset",
+            "Grade 4": "Life-threatening consequences; embolus requiring urgent intervention",
+            "Grade 5": "Death"
+        },
+        "Atrial flutter": {
+            "Definition": "A disorder characterized by a dysrhythmia with organized rhythmic atrial contractions with a rate of 200-300 beats per minute. The rhythm disturbance originates in the atria.",
+            "Grade 1": "Asymptomatic, intervention not indicated",
+            "Grade 2": "Non-urgent medical intervention indicated",
+            "Grade 3": "Symptomatic, urgent intervention indicated; device (e.g., pacemaker); ablation",
+            "Grade 4": "Life-threatening consequences; embolus requiring urgent intervention",
+            "Grade 5": "Death"
+        },
+        "Atrioventricular block complete": {
+            "Definition": "A disorder characterized by a dysrhythmia with complete failure of atrial electrical impulse conduction through the AV node to the ventricles.",
+            "Grade 1": " -",
+            "Grade 2": "Non-urgent intervention indicated",
+            "Grade 3": "Symptomatic and incompletely controlled medically, or controlled with device (e.g., pacemaker); new onset",
+            "Grade 4": "Life-threatening consequences; urgent intervention indicated",
+            "Grade 5": "Death"
+        },
+        "Cardiac arrest": {
+            "Definition": "A disorder characterized by cessation of the pumping function of the heart.",
+            "Grade 1": " -",
+            "Grade 2": " -",
+            "Grade 3": " -",
+            "Grade 4": "Life-threatening consequences; urgent intervention indicated",
+            "Grade 5": "Death"
+        },
+        "Chest pain - cardiac": {
+            "Definition": "A disorder characterized by substernal discomfort due to insufficient myocardial oxygenation e.g., angina pectoris.",
+            "Grade 1": "Mild pain",
+            "Grade 2": "Moderate pain; pain on exertion; limiting instrumental ADL; hemodynamically stable",
+            "Grade 3": "Pain at rest; limiting self care ADL; cardiac catheterization; new onset cardiac chest pain; unstable angina",
+            "Grade 4": " -",
+            "Grade 5": " -"
+        },
+        "Conduction disorder": {
+            "Definition": "A disorder characterized by pathological irregularities in the cardiac conduction system.",
+            "Grade 1": "Mild symptoms; intervention not indicated",
+            "Grade 2": "Non-urgent medical intervention indicated",
+            "Grade 3": "Symptomatic, urgent intervention indicated",
+            "Grade 4": "Life-threatening consequences",
+            "Grade 5": "Death"
+        },
+        "Heart failure": {
+            "Definition": "A disorder characterized by the inability of the heart to pump blood at an adequate volume to meet tissue metabolic requirements, or, the ability to do so only at an elevation in the filling pressure.",
+            "Grade 1": "Asymptomatic with laboratory (e.g., BNP [B-Natriuretic Peptide ]) or cardiac imaging abnormalities",
+            "Grade 2": "Symptoms with moderate activity or exertion",
+            "Grade 3": "Symptoms at rest or with minimal activity or exertion; hospitalization; new onset of symptoms",
+            "Grade 4": "Life-threatening consequences; urgent intervention indicated (e.g., continuous IV therapy or mechanical hemodynamic support)",
+            "Grade 5": "Death"
+        },
+        "Left ventricular systolic dysfunction": {
+            "Definition": "A disorder characterized by failure of the left ventricle to produce adequate output.",
+            "Grade 1": " -",
+            "Grade 2": " -",
+            "Grade 3": "Symptomatic due to drop in ejection fraction responsive to intervention",
+            "Grade 4": "Refractory or poorly controlled heart failure due to drop in ejection fraction; intervention such as ventricular assist device, intravenous vasopressor support, or heart transplant indicated",
+            "Grade 5": "Death"
+        },
+        "Mobitz (type) II atrioventricular block": {
+            "Definition": "A disorder characterized by a dysrhythmia with relatively constant PR interval prior to the block of an atrial impulse. This is the result of intermittent failure of atrial electrical impulse conduction through the atrioventricular (AV) node to the ventricles.",
+            "Grade 1": "Asymptomatic, intervention not indicated",
+            "Grade 2": "Symptomatic; medical intervention indicated",
+            "Grade 3": "Symptomatic and incompletely controlled medically, or controlled with device (e.g., pacemaker); new onset",
+            "Grade 4": "Life-threatening consequences; urgent intervention indicated",
+            "Grade 5": "Death"
+        },
+        "Mobitz type I": {
+            "Definition": "A disorder characterized by a dysrhythmia with a progressively lengthening PR interval prior to the blocking of an atrial impulse. This is the result of intermittent failure of atrial electrical impulse conduction through the atrioventricular (AV) node to the ventricles.",
+            "Grade 1": "Asymptomatic, intervention not indicated",
+            "Grade 2": "Symptomatic; medical intervention indicated",
+            "Grade 3": "Symptomatic and incompletely controlled medically, or controlled with device (e.g., pacemaker)",
+            "Grade 4": "Life-threatening consequences; urgent intervention indicated",
+            "Grade 5": "Death"
+        },
+        "Myocarditis": {
+            "Definition": "A disorder characterized by inflammation of the muscle tissue of the heart.",
+            "Grade 1": " -",
+            "Grade 2": "Symptoms with moderate activity or exertion",
+            "Grade 3": "Severe with symptoms at rest or with minimal activity or exertion; intervention indicated; new onset of symptoms",
+            "Grade 4": "Life-threatening consequences; urgent intervention indicated (e.g., continuous IV therapy or mechanical hemodynamic support)",
+            "Grade 5": "Death"
+        },
+        "Paroxysmal atrial tachycardia": {
+            "Definition": "A disorder characterized by a dysrhythmia with abrupt onset and sudden termination of atrial contractions with a rate of 150-250 beats per minute. The rhythm disturbance originates in the atria.",
+            "Grade 1": "Asymptomatic, intervention not indicated",
+            "Grade 2": "Non-urgent medical intervention indicated",
+            "Grade 3": "Symptomatic, urgent intervention indicated; ablation",
+            "Grade 4": "Life-threatening consequences; incompletely controlled medically; cardioversion indicated",
+            "Grade 5": "Death"
+        },
+        "Pericardial effusion": {
+            "Definition": "A disorder characterized by fluid collection within the pericardial sac, usually due to inflammation.",
+            "Grade 1": " -",
+            "Grade 2": "Asymptomatic effusion size small to moderate",
+            "Grade 3": "Effusion with physiologic consequences",
+            "Grade 4": "Life-threatening consequences; urgent intervention indicated",
+            "Grade 5": "Death"
+        },
+        "Pericardial tamponade": {
+            "Definition": "A disorder characterized by an increase in intrapericardial pressure due to the collection of blood or fluid in the pericardium.",
+            "Grade 1": " -",
+            "Grade 2": " -",
+            "Grade 3": " -",
+            "Grade 4": "Life-threatening consequences; urgent intervention indicated",
+            "Grade 5": "Death"
+        },
+        "Pericarditis": {
+            "Definition": "A disorder characterized by irritation to the layers of the pericardium (the protective sac around the heart).",
+            "Grade 1": "Asymptomatic, ECG or physical findings (e.g., rub) consistent with pericarditis",
+            "Grade 2": "Symptomatic pericarditis (e.g., chest pain)",
+            "Grade 3": "Pericarditis with physiologic consequences (e.g., pericardial constriction)",
+            "Grade 4": "Life-threatening consequences; urgent intervention indicated",
+            "Grade 5": "Death"
+        },
+        "Restrictive cardiomyopathy": {
+            "Definition": "A disorder characterized by an inability of the ventricles to fill with blood because the myocardium (heart muscle) stiffens and loses its flexibility.",
+            "Grade 1": "Imaging findings only",
+            "Grade 2": "Symptomatic without signs of heart failure",
+            "Grade 3": "Symptomatic heart failure or other cardiac symptoms, responsive to intervention; new onset of symptoms",
+            "Grade 4": "Refractory heart failure or other poorly controlled cardiac symptoms",
+            "Grade 5": "Death"
+        },
+        "Right ventricular dysfunction": {
+            "Definition": "A disorder characterized by impairment of right ventricular function associated with low ejection fraction and a decrease in motility of the right ventricular wall.",
+            "Grade 1": "Asymptomatic with laboratory (e.g., BNP [B-Natriuretic Peptide ]) or cardiac imaging abnormalities",
+            "Grade 2": "Symptoms with moderate activity or exertion",
+            "Grade 3": "Severe symptoms, associated with hypoxia, right heart failure; oxygen indicated",
+            "Grade 4": "Life-threatening consequences; urgent intervention indicated (e.g., ventricular assist device); heart transplant indicated",
+            "Grade 5": "Death"
+        },
+        "Sick sinus syndrome": {
+            "Definition": "A disorder characterized by a dysrhythmia with alternating periods of bradycardia and atrial tachycardia accompanied by syncope, fatigue and dizziness.",
+            "Grade 1": "Asymptomatic, intervention not indicated",
+            "Grade 2": "Symptomatic, intervention not indicated; change in medication initiated",
+            "Grade 3": "Symptomatic, intervention indicated",
+            "Grade 4": "Life-threatening consequences; urgent intervention indicated",
+            "Grade 5": "Death"
+        },
+        "Ventricular arrhythmia": {
+            "Definition": "A disorder characterized by a dysrhythmia that originates in the ventricles.",
+            "Grade 1": "Asymptomatic, intervention not indicated",
+            "Grade 2": "Non-urgent medical intervention indicated",
+            "Grade 3": "Urgent intervention indicated",
+            "Grade 4": "Life-threatening consequences; hemodynamic compromise",
+            "Grade 5": "Death"
+        },
+        "Ventricular fibrillation": {
+            "Definition": "A disorder characterized by a dysrhythmia without discernible QRS complexes due to rapid repetitive excitation of myocardial fibers without coordinated contraction of the ventricles.",
+            "Grade 1": " -",
+            "Grade 2": " -",
+            "Grade 3": " -",
+            "Grade 4": "Life-threatening consequences; hemodynamic compromise",
+            "Grade 5": "Death"
+        },
+        "Ventricular tachycardia": {
+            "Definition": "A disorder characterized by a dysrhythmia with a heart rate greater than 100 beats per minute that originates distal to the bundle of His.",
+            "Grade 1": " -",
+            "Grade 2": "Non-urgent medical intervention indicated",
+            "Grade 3": "Symptomatic, urgent intervention indicated",
+            "Grade 4": "Life-threatening consequences; hemodynamic compromise",
+            "Grade 5": "Death"
+        },
+        "Cardiac troponin I increased": {
+            "Definition": "A finding based on laboratory test results that indicate increased levels of cardiac troponin I in a biological specimen.",
+            "Grade 1": "Levels above the upper limit of normal and below the level of myocardial infarction as defined by the manufacturer",
+            "Grade 2": " -",
+            "Grade 3": "Levels consistent with myocardial infarction as defined by the manufacturer",
+            "Grade 4": " -",
+            "Grade 5": " -"
+        },
+        "Cardiac troponin T increased": {
+            "Definition": "A finding based on laboratory test results that indicate increased levels of cardiac troponin T in a biological specimen.",
+            "Grade 1": "Levels above the upper limit of normal and below the level of myocardial infarction as defined by the manufacturer",
+            "Grade 2": " -",
+            "Grade 3": "Levels consistent with myocardial infarction as defined by the manufacturer",
+            "Grade 4": " -",
+            "Grade 5": " -"
+        },
+        "Electrocardiogram QT corrected interval prolonged": {
+            "Definition": "A finding of a cardiac dysrhythmia characterized by an abnormally long corrected QT interval.",
+            "Grade 1": "Average QTc 450 - 480 ms",
+            "Grade 2": "Average QTc 481 - 500 ms",
+            "Grade 3": "Average QTc >= 501 ms; >60 ms change from baseline",
+            "Grade 4": "Torsade de pointes; polymorphic ventricular tachycardia; signs/symptoms of serious arrhythmia",
+            "Grade 5": " -"
+        },
+        "Electrocardiogram T wave abnormal": {
+            "Definition": "A disorder characterized by Electrocardiogram T wave amplitude changes.",
+            "Grade 1": "T wave flattening",
+            "Grade 2": "Nonspecific ST segment change",
+            "Grade 3": " -",
+            "Grade 4": " -",
+            "Grade 5": " -"
+        }
+    }
+}

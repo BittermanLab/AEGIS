@@ -1,0 +1,44 @@
+{
+    "Endocrine AE-associated symptoms": {
+        "Adrenal insufficiency": {
+            "Definition": "A disorder characterized by the adrenal cortex not producing enough cortisol, and/or aldosterone.",
+            "Grade 1": "Asymptomatic; clinical or diagnostic observations only; intervention not indicated",
+            "Grade 2": "Moderate symptoms; medical intervention indicated",
+            "Grade 3": "Severe symptoms; hospitalization indicated",
+            "Grade 4": "Life-threatening consequences; urgent intervention indicated",
+            "Grade 5": "Death"
+        },
+        "Diabetes mellitus": {
+            "Definition": "A disorder characterized by high blood glucose level due to the body's inability to metabolize carbohydrates.",
+            "Grade 1": "Fasting blood glucose >ULN - 160 mg/dL (>ULN - 8.9 mmol/L)",
+            "Grade 2": "Fasting blood glucose >160 - 250 mg/dL (>8.9 - 13.9 mmol/L)",
+            "Grade 3": "Fasting blood glucose >250 - 500 mg/dL (>13.9 - 27.8 mmol/L); hospitalization indicated",
+            "Grade 4": "Fasting blood glucose >500 mg/dL (>27.8 mmol/L); life-threatening consequences",
+            "Grade 5": "Death"
+        },
+        "Hypophysitis": {
+            "Definition": "A disorder characterized by inflammation of the pituitary gland.",
+            "Grade 1": "Asymptomatic or mild symptoms; clinical or diagnostic observations only; intervention not indicated",
+            "Grade 2": "Moderate; minimal, local or noninvasive intervention indicated",
+            "Grade 3": "Severe or medically significant but not immediately life-threatening; hospitalization or prolongation of existing hospitalization indicated",
+            "Grade 4": "Life-threatening consequences; urgent intervention indicated",
+            "Grade 5": "Death"
+        },
+        "Hypopituitarism": {
+            "Definition": "A disorder characterized by a decrease in production of pituitary hormones.",
+            "Grade 1": "Asymptomatic or mild symptoms; clinical or diagnostic observations only; intervention not indicated",
+            "Grade 2": "Moderate; minimal, local or noninvasive intervention indicated",
+            "Grade 3": "Severe or medically significant but not immediately life-threatening; hospitalization or prolongation of existing hospitalization indicated",
+            "Grade 4": "Life-threatening consequences; urgent intervention indicated",
+            "Grade 5": "Death"
+        },
+        "Hypogonadism": {
+            "Definition": "A disorder characterized by a reduction in serum testosterone in males and estrogen in females.",
+            "Grade 1": "Asymptomatic; clinical or diagnostic observations only; intervention not indicated",
+            "Grade 2": "Symptomatic (e.g., decreased libido, erectile dysfunction); intervention indicated",
+            "Grade 3": "Severe symptoms; intervention indicated",
+            "Grade 4": "-",
+            "Grade 5": "-"
+        }
+    }
+} 

@@ -1,0 +1,36 @@
+{
+    "Nephritis-associated symptoms": {
+        "Nephritis": {
+            "Definition": "A disorder characterized by inflammation of the kidney.",
+            "Grade 1": "Creatinine level increase of >0.3 mg/dL; creatinine 1.5-2.0 × baseline",
+            "Grade 2": "Creatinine 2-3 × baseline",
+            "Grade 3": "Creatinine >3 × baseline or >4.0 mg/dL; hospitalization indicated",
+            "Grade 4": "Life-threatening consequences; dialysis indicated",
+            "Grade 5": "Death"
+        },
+        "Acute kidney injury": {
+            "Definition": "A disorder characterized by the acute loss of renal function and/or a reduction in urine output.",
+            "Grade 1": "Creatinine level increase of >0.3 mg/dL; creatinine 1.5-2.0 × baseline",
+            "Grade 2": "Creatinine 2-3 × baseline",
+            "Grade 3": "Creatinine >3 × baseline or >4.0 mg/dL; hospitalization indicated",
+            "Grade 4": "Life-threatening consequences; dialysis indicated",
+            "Grade 5": "Death"
+        },
+        "Proteinuria": {
+            "Definition": "A disorder characterized by laboratory test results that indicate the presence of excessive protein in the urine.",
+            "Grade 1": "2+ proteinuria; urinary protein 0.5-1.0 g/24 hrs",
+            "Grade 2": "3+ proteinuria; urinary protein >1.0-3.5 g/24 hrs",
+            "Grade 3": "Urinary protein >3.5 g/24 hrs; hospitalization indicated",
+            "Grade 4": "Life-threatening consequences; urgent intervention indicated",
+            "Grade 5": "Death"
+        },
+        "Renal and urinary disorders - Other": {
+            "Definition": "A disorder characterized by a pathological process of the renal or urinary system.",
+            "Grade 1": "Asymptomatic or mild symptoms; clinical or diagnostic observations only; intervention not indicated",
+            "Grade 2": "Moderate; minimal, local or noninvasive intervention indicated; limiting instrumental ADL",
+            "Grade 3": "Severe or medically significant but not immediately life-threatening; hospitalization or prolongation of existing hospitalization indicated; limiting self care ADL",
+            "Grade 4": "Life-threatening consequences; urgent intervention indicated",
+            "Grade 5": "Death"
+        }
+    }
+} 

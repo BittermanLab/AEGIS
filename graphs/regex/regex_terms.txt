@@ -1,0 +1,779 @@
+2/2 atezo
+2/2 atezolizumab
+2/2 avelumab
+2/2 cemiplimab
+2/2 checkpoint inhibitor
+2/2 checkpoint-inhibitor
+2/2 dostalimab
+2/2 durva
+2/2 durvalumab
+2/2 ICI
+2/2 ICPi
+2/2 immune checkpoint blockade
+2/2 immune checkpoint inhibitor
+2/2 immune-checkpoint blockade
+2/2 immune-checkpoint inhibitor
+2/2 immunotherapy
+2/2 ipi
+2/2 ipilimumab
+2/2 nivo
+2/2 nivolumab
+2/2 pembro
+2/2 pembrolizumab
+2/2 recent ICI 
+2/2 recent immune checkpoint inhibitor
+2/2 recent immune checkpoint inhibitor 
+2/2 recent immunotherapy 
+2/2 to atezo
+2/2 to atezolizumab
+2/2 to avelumab
+2/2 to cemiplimab
+2/2 to checkpoint inhibitor
+2/2 to checkpoint-inhibitor
+2/2 to dostalimab
+2/2 to durva
+2/2 to durvalumab
+2/2 to ICI
+2/2 to ICPi
+2/2 to immune checkpoint blockade
+2/2 to immune checkpoint inhibitor
+2/2 to immune-checkpoint blockade
+2/2 to immune-checkpoint inhibitor
+2/2 to immunotherapy
+2/2 to ipi
+2/2 to ipilimumab
+2/2 to nivo
+2/2 to nivolumab
+2/2 to pembro
+2/2 to pembrolizumab
+2/2 to tremelimumab
+2/2 tremelimumab
+biopsy proven colitis
+biopsy proven cystitis
+biopsy proven nephritis
+checkpoint inhibitor acute interstitial nephritis
+checkpoint inhibitor acute kidney injury
+checkpoint inhibitor adverse effect 
+checkpoint inhibitor AIN
+checkpoint inhibitor AKI
+checkpoint inhibitor arthritis
+checkpoint inhibitor associated
+checkpoint inhibitor colitis
+checkpoint inhibitor cystitis
+checkpoint inhibitor dermatitis 
+checkpoint inhibitor duodenitis
+checkpoint inhibitor enteritis
+checkpoint inhibitor GBS
+checkpoint inhibitor guillan barre syndrome
+checkpoint inhibitor hepatitis
+checkpoint inhibitor hypophysitis
+checkpoint inhibitor induced
+checkpoint inhibitor MG
+checkpoint inhibitor myesthenia gravis
+checkpoint inhibitor myocarditis
+checkpoint inhibitor nephritis
+checkpoint inhibitor neuritis
+checkpoint inhibitor neurotoxicity
+checkpoint inhibitor pericarditis
+checkpoint inhibitor pneumonitis
+checkpoint inhibitor related
+checkpoint inhibitor toxicity 
+checkpoint inhibitor-acute interstitial nephritis
+checkpoint inhibitor-acute kidney injury
+checkpoint inhibitor-adverse effect 
+checkpoint inhibitor-AIN
+checkpoint inhibitor-AKI
+checkpoint inhibitor-arthritis
+checkpoint inhibitor-associated
+checkpoint inhibitor-colitis
+checkpoint inhibitor-colitis 
+checkpoint inhibitor-cystitis
+checkpoint inhibitor-dermatitis 
+checkpoint inhibitor-duodenitis
+checkpoint inhibitor-enteritis
+checkpoint inhibitor-GBS
+checkpoint inhibitor-guillan barre syndrome
+checkpoint inhibitor-hepatitis
+checkpoint inhibitor-hypophysitis
+checkpoint inhibitor-induced
+checkpoint inhibitor-induced ITP
+checkpoint inhibitor-induced pneumonitis
+checkpoint inhibitor-MG
+checkpoint inhibitor-myesthenia gravis
+checkpoint inhibitor-myocarditis
+checkpoint inhibitor-myocarditis 
+checkpoint inhibitor-myositis
+checkpoint inhibitor-nephritis
+checkpoint inhibitor-neuritis
+checkpoint inhibitor-neurotoxicity
+checkpoint inhibitor-pericarditis
+checkpoint inhibitor-pneumonitis
+checkpoint inhibitor-related
+checkpoint inhibitor-related hypophysitis 
+checkpoint inhibitor-thyroiditis 
+checkpoint inhibitor-toxicity 
+checkpoint-inhibitor acute interstitial nephritis
+checkpoint-inhibitor acute kidney injury
+checkpoint-inhibitor adverse effect 
+checkpoint-inhibitor AIN
+checkpoint-inhibitor AKI
+checkpoint-inhibitor arthritis
+checkpoint-inhibitor associated
+checkpoint-inhibitor colitis
+checkpoint-inhibitor cystitis
+checkpoint-inhibitor dermatitis 
+checkpoint-inhibitor duodenitis
+checkpoint-inhibitor enteritis
+checkpoint-inhibitor GBS
+checkpoint-inhibitor guillan barre syndrome
+checkpoint-inhibitor hepatitis
+checkpoint-inhibitor hypophysitis
+checkpoint-inhibitor induced
+checkpoint-inhibitor MG
+checkpoint-inhibitor myesthenia gravis
+checkpoint-inhibitor myocarditis
+checkpoint-inhibitor nephritis
+checkpoint-inhibitor neuritis
+checkpoint-inhibitor neurotoxicity
+checkpoint-inhibitor pneumonitis
+checkpoint-inhibitor related
+checkpoint-inhibitor toxicity 
+checkpont inhibitor pericarditis
+complicated by irAE
+concerning for irAE
+consistant with irAE
+d/t recent ICI
+d/t recent immune checkpoint inhibitor
+d/t recent immunotherapy
+due to atezo
+due to atezolizumab
+due to avelumab
+due to cemiplimab
+due to checkpoint inhibitor
+due to dostalimab
+due to durva
+due to durvalumab
+due to ICI
+due to ICPi
+due to immune checkpoint blockade
+due to immune checkpoint inhibitor
+due to immune-checkpoint blockade
+due to immune-checkpoint inhibitor
+due to immunotherapy
+due to ipi
+due to ipilimumab
+due to irAE
+due to nivo
+due to nivolumab
+due to pembro
+due to pembrolizumab
+due to recent ICI
+due to recent immune checkpoint inhibitor
+due to recent immunotherapy
+etiology for acute kidney injury is immunotherapy
+etiology for AIHA is immunotherapy
+etiology for AIN is immunotherapy
+etiology for AKI is immunotherapy
+etiology for arthritis is immunotherapy
+etiology for autoimmune hemolytic anemia is immunotherapy
+etiology for colitis is immunotherapy
+etiology for cystitis is immunotherapy
+etiology for deramtitis is immunotherapy
+etiology for duodenitis is immunotherapy
+etiology for enteritis is immunotherapy
+etiology for GBS is immunotherapy
+etiology for guillan barre syndrome is immunotherapy
+etiology for hepatitis is immunotherapy
+etiology for hypophysitis is immunotherapy
+etiology for MG is immunotherapy
+etiology for myesthenia gravis is immunotherapy
+etiology for myocarditis is immunotherapy
+etiology for nephritis is immunotherapy
+etiology for neuritis is immunotherapy
+etiology for neurotoxicity is immunotherapy
+etiology for pericarditis is immunotherapy
+etiology for pneumonitis is immunotherapy
+etiology for toxicity is immunotherapy
+from atezo
+from atezolizumab
+from avelumab
+from cemiplimab
+from checkpoint inhibitor
+from dostalimab
+from durva
+from durvalumab
+from ICI
+from ICPi
+from immune checkpoint blockade
+from immune checkpoint inhibitor
+from immune-checkpoint blockade
+from immune-checkpoint inhibitor
+from immunotherapy
+from ipi
+from ipilimumab
+from nivo
+from nivolumab
+from pembro
+from pembrolizumab
+from tremelimumab
+ICI adverse effect 
+ICI AIHA
+ICI AIN
+ICI AKI
+ICI arthritis
+ICI associated
+ICI autoimmune hemolytic anemia
+ICI colitis
+ICI cystitis
+ICI dermatitis 
+ICI duodenitis
+ICI enteritis
+ICI GBS
+ICI guillan barre syndrome
+ICI hepatitis
+ICI hypophysitis
+ICI induced
+ICI MG
+ICI myesthenia gravis
+ICI myocarditis
+ICI nephritis
+ICI neuritis
+ICI neurotoxicity
+ICI pericarditis
+ICI pneumonitis
+ICI related
+ICI toxicity 
+ICI-associated
+ICI-colitis 
+ICI-duodenitis
+ICI-enteritis
+ICI-hepatitis
+ICI-induced
+ICI-MG
+ICI-myocarditis 
+ICI-myositis
+ICI-pericarditis
+ICI-pneumonitis
+ICI-related
+ICI-thyroiditis 
+ICPi associated
+ICPi induced
+ICPi related
+ICPi-AKI
+immune checkpoint inhibitor adrenal insufficiency
+immune checkpoint inhibitor AIN
+immune checkpoint inhibitor AKI
+immune checkpoint inhibitor arthritis
+immune checkpoint inhibitor arthritis 
+Immune checkpoint inhibitor associated
+immune checkpoint inhibitor colitis
+immune checkpoint inhibitor dermatitis 
+immune checkpoint inhibitor duodenitis
+immune checkpoint inhibitor enteritis
+immune checkpoint inhibitor guillan barre syndrome
+immune checkpoint inhibitor hepatitis
+immune checkpoint inhibitor hypophysitis
+immune checkpoint inhibitor induced
+immune checkpoint inhibitor MG
+immune checkpoint inhibitor myesthenia gravis
+immune checkpoint inhibitor myocarditis
+immune checkpoint inhibitor nephritis
+immune checkpoint inhibitor neuritis
+immune checkpoint inhibitor neurotoxicity
+immune checkpoint inhibitor pericarditis
+immune checkpoint inhibitor pneumonitis
+immune checkpoint inhibitor related
+immune checkpoint inhibitor toxicity 
+immune related
+immune related adverse event
+immune-checkpoint inhibitor toxicity
+immunotherapy associated
+immunotherapy induced
+immunotherapy related
+immunotherapy-related
+immunotoxicity
+in setting of atezo
+in setting of atezolizumab
+in setting of avelumab
+in setting of cemiplimab
+in setting of dostalimab
+in setting of durva
+in setting of durvalumab
+in setting of ICI
+in setting of ICPi
+in setting of immune checkpoint blockade
+in setting of immune checkpoint inhibitor
+in setting of immunotherapy
+in setting of ipi
+in setting of ipilimumab
+in setting of nivo
+in setting of nivolumab
+in setting of pembro
+in setting of pembrolizumab
+in setting of prior immunotherapy
+in setting of recent checkpoint inhibitor
+in setting of recent ICI
+in setting of recent immunotherapy
+in setting of tremelimumab
+iso atezo
+iso atezolizumab
+iso avelumab
+iso cemiplimab
+iso dostalimab
+iso durva
+iso durvalumab
+iso ICI
+iso ICPi
+iso immune checkpoint blockade
+iso immune checkpoint inhibitor
+iso immunotherapy
+iso ipi
+iso ipilimumab
+iso nivo
+iso nivolumab
+iso pembro
+iso pembrolizumab
+iso prior immunotherapy
+iso recent ICI
+iso recent immune checkpoint inhibitor
+iso recent immunotherapy
+iso tremelimumab
+r/t checkpoint inhibitor
+r/t checkpoint-inhibitor
+r/t ICI
+r/t ICPi
+r/t immune checkpoint inhibitor
+r/t immunotherapy
+related to recent ICI
+related to recent immune checkpoint inhibitor
+related to recent immunotherapy
+secondary to atezo
+secondary to atezolizumab
+secondary to avelumab
+secondary to cemiplimab
+secondary to checkpoint inhibitor
+secondary to dostalimab
+secondary to durva
+secondary to durvalumab
+secondary to ICI
+secondary to immune checkpoint blockade
+secondary to immune checkpoint inhibitor
+secondary to immune-checkpoint blockade
+secondary to immune-checkpoint inhibitor
+secondary to immunotherapy
+secondary to ipi
+secondary to ipilimumab
+secondary to nivo
+secondary to nivolumab
+secondary to pembro
+secondary to pembrolizumab
+ICI-adverse effect 
+ICI-AIHA
+ICI-AIN
+ICI-AKI
+ICI-arthritis
+ICI-associated
+ICI-autoimmune hemolytic anemia
+ICI-colitis
+ICI-cystitis
+ICI-dermatitis 
+ICI-duodenitis
+ICI-enteritis
+ICI-GBS
+ICI-guillan barre syndrome
+ICI-hepatitis
+ICI-hypophysitis
+ICI-induced
+ICI-MG
+ICI-myesthenia gravis
+ICI-myocarditis
+ICI-nephritis
+ICI-neuritis
+ICI-neurotoxicity
+ICI-pericarditis
+ICI-pneumonitis
+ICI-related
+ICI-toxicity 
+ICI-colitis 
+ICI-myocarditis 
+ICI-myositis
+ICI-thyroiditis 
+ICPi associated
+ICPi induced
+ICPi related
+ICPi-AKI
+d/t his immune checkpoint inhibitor 
+d/t her immune checkpoint inhibitor 
+d/t their immune checkpoint inhibitor
+d/t his immune-checkpoint-inhibitor 
+d/t her immune-checkpoint-inhibitor 
+d/t their immune-checkpoint-inhibitor
+d/t his immune-checkpoint-inhibitor 
+d/t her immune-checkpoint-inhibitor 
+d/t their immune-checkpoint-inhibitor
+d/t his ICI 
+d/t her ICI 
+d/t their ICI
+d/t his immnuotherapy 
+d/t her immnuotherapy 
+d/t their immnuotherapy
+2/2 his atezo
+2/2 his atezolizumab
+2/2 his avelumab
+2/2 his cemiplimab
+2/2 his checkpoint inhibito hisr
+2/2 his checkpoint-inhibito hisr
+2/2 his dostalimab
+2/2 his durva
+2/2 his durvalumab
+2/2 his ICI
+2/2 his ICPi
+2/2 his immune checkpoint blockade
+2/2 his immune checkpoint inhibito hisr
+2/2 his immune-checkpoint blockade
+2/2 his immune-checkpoint inhibito hisr
+2/2 his immunotherapy
+2/2 his ipi
+2/2 his ipilimumab
+2/2 his nivo
+2/2 his nivolumab
+2/2 his pembro
+2/2 his pembrolizumab
+2/2 his recent ICI 
+2/2 his recent immune checkpoint inhibito hisr
+2/2 his recent immune checkpoint inhibito hisr 
+2/2 his recent immunotherapy 
+2/2 to his atezo
+2/2 to his atezolizumab
+2/2 to his avelumab
+2/2 to his cemiplimab
+2/2 to his checkpoint inhibito hisr
+2/2 to his checkpoint-inhibito hisr
+2/2 to his dostalimab
+2/2 to his durva
+2/2 to his durvalumab
+2/2 to his ICI
+2/2 to his ICPi
+2/2 to his immune checkpoint blockade
+2/2 to his immune checkpoint inhibito hisr
+2/2 to his immune-checkpoint blockade
+2/2 to his immune-checkpoint inhibito hisr
+2/2 to his immunotherapy
+2/2 to his ipi
+2/2 to his ipilimumab
+2/2 to his nivo
+2/2 to his nivolumab
+2/2 to his pembro
+2/2 to his pembrolizumab
+2/2 to his tremelimumab
+2/2 his tremelimumab
+2/2 her atezo
+2/2 her atezolizumab
+2/2 her avelumab
+2/2 her cemiplimab
+2/2 her checkpoint inhibito herr
+2/2 her checkpoint-inhibito herr
+2/2 her dostalimab
+2/2 her durva
+2/2 her durvalumab
+2/2 her ICI
+2/2 her ICPi
+2/2 her immune checkpoint blockade
+2/2 her immune checkpoint inhibito herr
+2/2 her immune-checkpoint blockade
+2/2 her immune-checkpoint inhibito herr
+2/2 her immunotherapy
+2/2 her ipi
+2/2 her ipilimumab
+2/2 her nivo
+2/2 her nivolumab
+2/2 her pembro
+2/2 her pembrolizumab
+2/2 her recent ICI 
+2/2 her recent immune checkpoint inhibito herr
+2/2 her recent immune checkpoint inhibito herr 
+2/2 her recent immunotherapy 
+2/2 to her atezo
+2/2 to her atezolizumab
+2/2 to her avelumab
+2/2 to her cemiplimab
+2/2 to her checkpoint inhibito herr
+2/2 to her checkpoint-inhibito herr
+2/2 to her dostalimab
+2/2 to her durva
+2/2 to her durvalumab
+2/2 to her ICI
+2/2 to her ICPi
+2/2 to her immune checkpoint blockade
+2/2 to her immune checkpoint inhibito herr
+2/2 to her immune-checkpoint blockade
+2/2 to her immune-checkpoint inhibito herr
+2/2 to her immunotherapy
+2/2 to her ipi
+2/2 to her ipilimumab
+2/2 to her nivo
+2/2 to her nivolumab
+2/2 to her pembro
+2/2 to her pembrolizumab
+2/2 to her tremelimumab
+2/2 her tremelimumab
+2/2 their atezo
+2/2 their atezolizumab
+2/2 their avelumab
+2/2 their cemiplimab
+2/2 their checkpoint inhibito theirr
+2/2 their checkpoint-inhibito theirr
+2/2 their dostalimab
+2/2 their durva
+2/2 their durvalumab
+2/2 their ICI
+2/2 their ICPi
+2/2 their immune checkpoint blockade
+2/2 their immune checkpoint inhibito theirr
+2/2 their immune-checkpoint blockade
+2/2 their immune-checkpoint inhibito theirr
+2/2 their immunottheirapy
+2/2 their ipi
+2/2 their ipilimumab
+2/2 their nivo
+2/2 their nivolumab
+2/2 their pembro
+2/2 their pembrolizumab
+2/2 their recent ICI 
+2/2 their recent immune checkpoint inhibito theirr
+2/2 their recent immune checkpoint inhibito theirr 
+2/2 their recent immunottheirapy 
+2/2 to their atezo
+2/2 to their atezolizumab
+2/2 to their avelumab
+2/2 to their cemiplimab
+2/2 to their checkpoint inhibito theirr
+2/2 to their checkpoint-inhibito theirr
+2/2 to their dostalimab
+2/2 to their durva
+2/2 to their durvalumab
+2/2 to their ICI
+2/2 to their ICPi
+2/2 to their immune checkpoint blockade
+2/2 to their immune checkpoint inhibito theirr
+2/2 to their immune-checkpoint blockade
+2/2 to their immune-checkpoint inhibito theirr
+2/2 to their immunottheirapy
+2/2 to their ipi
+2/2 to their ipilimumab
+2/2 to their nivo
+2/2 to their nivolumab
+2/2 to their pembro
+2/2 to their pembrolizumab
+2/2 to their tremelimumab
+2/2 their tremelimumab
+d/t recent ICI
+d/t recent immune checkpoint inhibitor
+d/t recent immunotherapy
+due to atezo
+due to atezolizumab
+due to avelumab
+due to cemiplimab
+due to checkpoint inhibitor
+due to dostalimab
+due to durva
+due to durvalumab
+due to ICI
+due to ICPi
+due to immune checkpoint blockade
+due to immune checkpoint inhibitor
+due to immune-checkpoint blockade
+due to immune-checkpoint inhibitor
+due to immunotherapy
+due to ipi
+due to ipilimumab
+due to irAE
+due to nivo
+due to nivolumab
+due to pembro
+due to pembrolizumab
+due to recent ICI
+due to recent immune checkpoint inhibitor
+due to recent immunotherapy
+d/t his recent ICI
+d/t his recent immune checkpoint inhibitor
+d/t his recent immunotherapy
+due to his atezo
+due to his atezolizumab
+due to his avelumab
+due to his cemiplimab
+due to his checkpoint inhibito hisr
+due to his dostalimab
+due to his durva
+due to his durvalumab
+due to his ICI
+due to his ICPi
+due to his immune checkpoint blockade
+due to his immune checkpoint inhibito hisr
+due to his immune-checkpoint blockade
+due to his immune-checkpoint inhibito hisr
+due to his immunotherapy
+due to his ipi
+due to his ipilimumab
+due to his irAE
+due to his nivo
+due to his nivolumab
+due to his pembro
+due to his pembrolizumab
+due to his recent ICI
+due to his recent immune checkpoint inhibito hisr
+due to his recent immunotherapy
+due to her atezo
+due to her atezolizumab
+due to her avelumab
+due to her cemiplimab
+due to her checkpoint inhibito herr
+due to her dostalimab
+due to her durva
+due to her durvalumab
+due to her ICI
+due to her ICPi
+due to her immune checkpoint blockade
+due to her immune checkpoint inhibito herr
+due to her immune-checkpoint blockade
+due to her immune-checkpoint inhibito herr
+due to her immunotherapy
+due to her ipi
+due to her ipilimumab
+due to her irAE
+due to her nivo
+due to her nivolumab
+due to her pembro
+due to her pembrolizumab
+due to her recent ICI
+due to her recent immune checkpoint inhibito herr
+due to her recent immunotherapy
+due to their atezo
+due to their atezolizumab
+due to their avelumab
+due to their cemiplimab
+due to their checkpoint inhibito theirr
+due to their dostalimab
+due to their durva
+due to their durvalumab
+due to their ICI
+due to their ICPi
+due to their immune checkpoint blockade
+due to their immune checkpoint inhibito theirr
+due to their immune-checkpoint blockade
+due to their immune-checkpoint inhibito theirr
+due to their immunottheirapy
+due to their ipi
+due to their ipilimumab
+due to their irAE
+due to their nivo
+due to their nivolumab
+due to their pembro
+due to their pembrolizumab
+due to their recent ICI
+due to their recent immune checkpoint inhibito theirr
+due to their recent immunottheirapy
+from his atezo
+from his atezolizumab
+from his avelumab
+from his cemiplimab
+from his checkpoint inhibitor
+from his dostalimab
+from his durva
+from his durvalumab
+from his ICI
+from his ICPi
+from his immune checkpoint blockade
+from his immune checkpoint inhibitor
+from his immune-checkpoint blockade
+from his immune-checkpoint inhibitor
+from his immunotherapy
+from his ipi
+from his ipilimumab
+from his nivo
+from his nivolumab
+from his pembro
+from his pembrolizumab
+from his tremelimumab
+from her atezo
+from her atezolizumab
+from her avelumab
+from her cemiplimab
+from her checkpoint inhibitor
+from her dostalimab
+from her durva
+from her durvalumab
+from her ICI
+from her ICPi
+from her immune checkpoint blockade
+from her immune checkpoint inhibitor
+from her immune-checkpoint blockade
+from her immune-checkpoint inhibitor
+from her immunotherapy
+from her ipi
+from her ipilimumab
+from her nivo
+from her nivolumab
+from her pembro
+from her pembrolizumab
+from her tremelimumab
+from their atezo
+from their atezolizumab
+from their avelumab
+from their cemiplimab
+from their checkpoint inhibitor
+from their dostalimab
+from their durva
+from their durvalumab
+from their ICI
+from their ICPi
+from their immune checkpoint blockade
+from their immune checkpoint inhibitor
+from their immune-checkpoint blockade
+from their immune-checkpoint inhibitor
+from their immunottheirapy
+from their ipi
+from their ipilimumab
+from their nivo
+from their nivolumab
+from their pembro
+from their pembrolizumab
+from their tremelimumab
+related to ICI
+related to immunetherapy
+related to immune checkpoint inhibitors
+related to immunotherapy
+related to immune-checkpoint-inhibitors
+ICI uveitis
+immune check point uveitis
+ICI mediated
+ICI-mediated
+immune checkpoint inhibitor mediated
+immune checkpoint blockade mediated
+immune checkpoint mediated
+immune therapy mediated
+immunotherapy mediated
+immune-therapy mediated
+immune-checkpoint inhbitor mediated
+immune-checkpoint mediated
+immune-mediated
+immune mediated
+ICI endocrinopathy
+2/2 irae
+d/t irae
+secondary to irae
+iso irae
+ICI encephalitis
+immune checkpoint encephalitis
+immune checkpoint inhibitor encephalitis
+immune-checkpoint encephalitis
+immune-checkpoint inhibitor encephalitis
+checkpoint inhibitor encephalitis
+checkpoint-inhibitor encephalitis
+irAE
+pneumonitis
+myocarditis
+colitis
+thyroiditis
+hepatitis
+dermatitis

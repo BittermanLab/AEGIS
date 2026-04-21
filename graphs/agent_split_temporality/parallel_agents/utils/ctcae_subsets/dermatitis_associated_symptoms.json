@@ -1,0 +1,52 @@
+{
+    "Dermatitis-associated symptoms": {
+        "Bullous dermatitis": {
+            "Definition": "A disorder characterized by inflammation of the skin characterized by the presence of bullae which are filled with fluid.",
+            "Grade 1": "Asymptomatic; blisters covering <10% BSA",
+            "Grade 2": "Blisters covering 10 - 30% BSA; painful blisters; limiting instrumental ADL",
+            "Grade 3": "Blisters covering >30% BSA; limiting self care ADL",
+            "Grade 4": "Blisters covering >30% BSA; associated with fluid or electrolyte abnormalities; ICU care or burn unit indicated",
+            "Grade 5": "Death"
+        },
+        "Erythema multiforme": {
+            "Definition": "A disorder characterized by target lesions (a pink-red ring around a pale center).",
+            "Grade 1": "Target lesions covering <10% BSA and not associated with skin tenderness",
+            "Grade 2": "Target lesions covering 10 - 30% BSA and associated with skin tenderness",
+            "Grade 3": "Target lesions covering >30% BSA and associated with oral or genital erosions",
+            "Grade 4": "Target lesions covering >30% BSA; associated with fluid or electrolyte abnormalities; ICU care or burn unit indicated",
+            "Grade 5": "Death"
+        },
+        "Erythroderma": {
+            "Definition": "A disorder characterized by generalized inflammatory erythema and exfoliation. The inflammatory process involves > 90% of the body surface area.",
+            "Grade 1": " -",
+            "Grade 2": "Erythema covering >90% BSA without associated symptoms; limiting instrumental ADL",
+            "Grade 3": "Erythema covering >90% BSA with associated symptoms (e.g., pruritus or tenderness); limiting self care ADL",
+            "Grade 4": "Erythema covering >90% BSA with associated fluid or electrolyte abnormalities; ICU care or burn unit indicated",
+            "Grade 5": "Death"
+        },
+        "Rash maculo-papular": {
+            "Definition": "A disorder characterized by the presence of macules (flat) and papules (elevated). Also known as morbillform rash, it is one of the most common cutaneous adverse events, frequently affecting the upper trunk, spreading centripetally and associated with pruritis.",
+            "Grade 1": "Macules/papules covering <10% BSA with or without symptoms (e.g., pruritus, burning, tightness)",
+            "Grade 2": "Macules/papules covering 10 - 30% BSA with or without symptoms (e.g., pruritus, burning, tightness); limiting instrumental ADL; rash covering > 30% BSA with or without mild symptoms",
+            "Grade 3": "Macules/papules covering >30% BSA with moderate or severe symptoms; limiting self care ADL",
+            "Grade 4": " -",
+            "Grade 5": " -"
+        },
+        "Stevens-Johnson syndrome": {
+            "Definition": "A disorder characterized by less than 10% total body skin area separation of dermis. The syndrome is thought to be a hypersensitivity complex affecting the skin and the mucous membranes.",
+            "Grade 1": " -",
+            "Grade 2": " -",
+            "Grade 3": "Skin sloughing covering <10% BSA with associated signs (e.g., erythema, purpura, epidermal detachment, and mucous membrane detachment)",
+            "Grade 4": "Skin sloughing covering 10 - 30% BSA with associated signs (e.g., erythema, purpura, epidermal detachment and mucous membrane detachment)",
+            "Grade 5": "Death"
+        },
+        "Toxic epidermal necrolysis": {
+            "Definition": "A disorder characterized by greater than 30% total body skin area separation of dermis. The syndrome is thought to be a hypersensitivity complex affecting the skin and the mucous membranes.",
+            "Grade 1": " -",
+            "Grade 2": " -",
+            "Grade 3": " -",
+            "Grade 4": "Skin sloughing covering >=30% BSA with associated symptoms (e.g., erythema, purpura, or epidermal detachment)",
+            "Grade 5": "Death"
+        }
+    }
+}

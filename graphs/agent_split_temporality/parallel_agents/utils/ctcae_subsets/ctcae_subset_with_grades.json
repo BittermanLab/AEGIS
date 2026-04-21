@@ -1,0 +1,574 @@
+{
+    "Myocarditis-associated symptoms": {
+        "Atrial fibrillation": {
+            "Definition": "A disorder characterized by a dysrhythmia without discernible P waves and an irregular ventricular response due to multiple reentry circuits. The rhythm disturbance originates above the ventricles.",
+            "Grade 1": "Asymptomatic, intervention not indicated",
+            "Grade 2": "Non-urgent medical intervention indicated",
+            "Grade 3": "Symptomatic, urgent intervention indicated; device (e.g., pacemaker); ablation; new onset",
+            "Grade 4": "Life-threatening consequences; embolus requiring urgent intervention",
+            "Grade 5": "Death"
+        },
+        "Atrial flutter": {
+            "Definition": "A disorder characterized by a dysrhythmia with organized rhythmic atrial contractions with a rate of 200-300 beats per minute. The rhythm disturbance originates in the atria.",
+            "Grade 1": "Asymptomatic, intervention not indicated",
+            "Grade 2": "Non-urgent medical intervention indicated",
+            "Grade 3": "Symptomatic, urgent intervention indicated; device (e.g., pacemaker); ablation",
+            "Grade 4": "Life-threatening consequences; embolus requiring urgent intervention",
+            "Grade 5": "Death"
+        },
+        "Chest pain - cardiac": {
+            "Definition": "A disorder characterized by substernal discomfort due to insufficient myocardial oxygenation e.g., angina pectoris.",
+            "Grade 1": "Mild pain",
+            "Grade 2": "Moderate pain; pain on exertion; limiting instrumental ADL; hemodynamically stable",
+            "Grade 3": "Pain at rest; limiting self care ADL; cardiac catheterization; new onset cardiac chest pain; unstable angina",
+            "Grade 4": " -",
+            "Grade 5": " -"
+        },
+        "Conduction disorder": {
+            "Definition": "A disorder characterized by pathological irregularities in the cardiac conduction system.",
+            "Grade 1": "Mild symptoms; intervention not indicated",
+            "Grade 2": "Non-urgent medical intervention indicated",
+            "Grade 3": "Symptomatic, urgent intervention indicated",
+            "Grade 4": "Life-threatening consequences",
+            "Grade 5": "Death"
+        },
+        "Heart failure": {
+            "Definition": "A disorder characterized by the inability of the heart to pump blood at an adequate volume to meet tissue metabolic requirements, or, the ability to do so only at an elevation in the filling pressure.",
+            "Grade 1": "Asymptomatic with laboratory (e.g., BNP [B-Natriuretic Peptide ]) or cardiac imaging abnormalities",
+            "Grade 2": "Symptoms with moderate activity or exertion",
+            "Grade 3": "Symptoms at rest or with minimal activity or exertion; hospitalization; new onset of symptoms",
+            "Grade 4": "Life-threatening consequences; urgent intervention indicated (e.g., continuous IV therapy or mechanical hemodynamic support)",
+            "Grade 5": "Death"
+        },
+        "Left ventricular systolic dysfunction": {
+            "Definition": "A disorder characterized by failure of the left ventricle to produce adequate output.",
+            "Grade 1": " -",
+            "Grade 2": " -",
+            "Grade 3": "Symptomatic due to drop in ejection fraction responsive to intervention",
+            "Grade 4": "Refractory or poorly controlled heart failure due to drop in ejection fraction; intervention such as ventricular assist device, intravenous vasopressor support, or heart transplant indicated",
+            "Grade 5": "Death"
+        },
+        "Myocarditis": {
+            "Definition": "A disorder characterized by inflammation of the muscle tissue of the heart.",
+            "Grade 1": " -",
+            "Grade 2": "Symptoms with moderate activity or exertion",
+            "Grade 3": "Severe with symptoms at rest or with minimal activity or exertion; intervention indicated; new onset of symptoms",
+            "Grade 4": "Life-threatening consequences; urgent intervention indicated (e.g., continuous IV therapy or mechanical hemodynamic support)",
+            "Grade 5": "Death"
+        },
+        "Palpitations": {
+            "Definition": "A disorder characterized by an unpleasant sensation of irregular and/or forceful beating of the heart.",
+            "Grade 1": "Mild symptoms; intervention not indicated",
+            "Grade 2": "Intervention indicated",
+            "Grade 3": " -",
+            "Grade 4": " -",
+            "Grade 5": " -"
+        },
+        "Pericardial effusion": {
+            "Definition": "A disorder characterized by fluid collection within the pericardial sac, usually due to inflammation.",
+            "Grade 1": " -",
+            "Grade 2": "Asymptomatic effusion size small to moderate",
+            "Grade 3": "Effusion with physiologic consequences",
+            "Grade 4": "Life-threatening consequences; urgent intervention indicated",
+            "Grade 5": "Death"
+        },
+        "Pericardial tamponade": {
+            "Definition": "A disorder characterized by an increase in intrapericardial pressure due to the collection of blood or fluid in the pericardium.",
+            "Grade 1": " -",
+            "Grade 2": " -",
+            "Grade 3": " -",
+            "Grade 4": "Life-threatening consequences; urgent intervention indicated",
+            "Grade 5": "Death"
+        },
+        "Pericarditis": {
+            "Definition": "A disorder characterized by irritation to the layers of the pericardium (the protective sac around the heart).",
+            "Grade 1": "Asymptomatic, ECG or physical findings (e.g., rub) consistent with pericarditis",
+            "Grade 2": "Symptomatic pericarditis (e.g., chest pain)",
+            "Grade 3": "Pericarditis with physiologic consequences (e.g., pericardial constriction)",
+            "Grade 4": "Life-threatening consequences; urgent intervention indicated",
+            "Grade 5": "Death"
+        },
+        "Restrictive cardiomyopathy": {
+            "Definition": "A disorder characterized by an inability of the ventricles to fill with blood because the myocardium (heart muscle) stiffens and loses its flexibility.",
+            "Grade 1": "Imaging findings only",
+            "Grade 2": "Symptomatic without signs of heart failure",
+            "Grade 3": "Symptomatic heart failure or other cardiac symptoms, responsive to intervention; new onset of symptoms",
+            "Grade 4": "Refractory heart failure or other poorly controlled cardiac symptoms",
+            "Grade 5": "Death"
+        },
+        "Right ventricular dysfunction": {
+            "Definition": "A disorder characterized by impairment of right ventricular function associated with low ejection fraction and a decrease in motility of the right ventricular wall.",
+            "Grade 1": "Asymptomatic with laboratory (e.g., BNP [B-Natriuretic Peptide ]) or cardiac imaging abnormalities",
+            "Grade 2": "Symptoms with moderate activity or exertion",
+            "Grade 3": "Severe symptoms, associated with hypoxia, right heart failure; oxygen indicated",
+            "Grade 4": "Life-threatening consequences; urgent intervention indicated (e.g., ventricular assist device); heart transplant indicated",
+            "Grade 5": "Death"
+        },
+        "Ventricular fibrillation": {
+            "Definition": "A disorder characterized by a dysrhythmia without discernible QRS complexes due to rapid repetitive excitation of myocardial fibers without coordinated contraction of the ventricles.",
+            "Grade 1": " -",
+            "Grade 2": " -",
+            "Grade 3": " -",
+            "Grade 4": "Life-threatening consequences; hemodynamic compromise",
+            "Grade 5": "Death"
+        },
+        "Ventricular tachycardia": {
+            "Definition": "A disorder characterized by a dysrhythmia with a heart rate greater than 100 beats per minute that originates distal to the bundle of His.",
+            "Grade 1": " -",
+            "Grade 2": "Non-urgent medical intervention indicated",
+            "Grade 3": "Symptomatic, urgent intervention indicated",
+            "Grade 4": "Life-threatening consequences; hemodynamic compromise",
+            "Grade 5": "Death"
+        },
+        "Cardiac troponin I increased": {
+            "Definition": "A finding based on laboratory test results that indicate increased levels of cardiac troponin I in a biological specimen.",
+            "Grade 1": "Levels above the upper limit of normal and below the level of myocardial infarction as defined by the manufacturer",
+            "Grade 2": " -",
+            "Grade 3": "Levels consistent with myocardial infarction as defined by the manufacturer",
+            "Grade 4": " -",
+            "Grade 5": " -"
+        },
+        "Cardiac troponin T increased": {
+            "Definition": "A finding based on laboratory test results that indicate increased levels of cardiac troponin T in a biological specimen.",
+            "Grade 1": "Levels above the upper limit of normal and below the level of myocardial infarction as defined by the manufacturer",
+            "Grade 2": " -",
+            "Grade 3": "Levels consistent with myocardial infarction as defined by the manufacturer",
+            "Grade 4": " -",
+            "Grade 5": " -"
+        },
+        "Electrocardiogram QT corrected interval prolonged": {
+            "Definition": "A finding of a cardiac dysrhythmia characterized by an abnormally long corrected QT interval.",
+            "Grade 1": "Average QTc 450 - 480 ms",
+            "Grade 2": "Average QTc 481 - 500 ms",
+            "Grade 3": "Average QTc >= 501 ms; >60 ms change from baseline",
+            "Grade 4": "Torsade de pointes; polymorphic ventricular tachycardia; signs/symptoms of serious arrhythmia",
+            "Grade 5": " -"
+        },
+        "Electrocardiogram T wave abnormal": {
+            "Definition": "A disorder characterized by Electrocardiogram T wave amplitude changes.",
+            "Grade 1": "T wave flattening",
+            "Grade 2": "Nonspecific ST segment change",
+            "Grade 3": " -",
+            "Grade 4": " -",
+            "Grade 5": " -"
+        }
+    },
+    "Thyroiditis-associated symptoms": {
+        "Hyperthyroidism": {
+            "Definition": "A disorder characterized by excessive levels of thyroid hormone in the body. Common causes include an overactive thyroid gland or thyroid hormone overdose.",
+            "Grade 1": "Asymptomatic; clinical or diagnostic observations only; intervention not indicated",
+            "Grade 2": "Symptomatic; thyroid suppression therapy indicated; limiting instrumental ADL",
+            "Grade 3": "Severe symptoms; limiting self care ADL; hospitalization indicated",
+            "Grade 4": "Life-threatening consequences; urgent intervention indicated",
+            "Grade 5": "Death"
+        },
+        "Hypothyroidism": {
+            "Definition": "A disorder characterized by a decrease in production of thyroid hormone by the thyroid gland.",
+            "Grade 1": "Asymptomatic; clinical or diagnostic observations only; intervention not indicated",
+            "Grade 2": "Symptomatic; thyroid replacement indicated; limiting instrumental ADL",
+            "Grade 3": "Severe symptoms; limiting self care ADL; hospitalization indicated",
+            "Grade 4": "Life-threatening consequences; urgent intervention indicated",
+            "Grade 5": "Death"
+        },
+        "Thyroid stimulating hormone increased": {
+            "Definition": "A disorder characterized by an increase in thyroid stimulating hormone.",
+            "Grade 1": "TSH increased and no intervention initiated",
+            "Grade 2": " -",
+            "Grade 3": " -",
+            "Grade 4": " -",
+            "Grade 5": " -"
+        }
+    },
+    "Colitis-associated symptoms": {
+        "Abdominal pain": {
+            "Definition": "A disorder characterized by a sensation of marked discomfort in the abdominal region.",
+            "Grade 1": "Mild pain",
+            "Grade 2": "Moderate pain; limiting instrumental ADL",
+            "Grade 3": "Severe pain; limiting self care ADL",
+            "Grade 4": " -",
+            "Grade 5": " -"
+        },
+        "Bloating": {
+            "Definition": "A disorder characterized by subject-reported feeling of uncomfortable fullness of the abdomen.",
+            "Grade 1": "No change in bowel function or oral intake",
+            "Grade 2": "Symptomatic, decreased oral intake; change in bowel function",
+            "Grade 3": " -",
+            "Grade 4": " -",
+            "Grade 5": " -"
+        },
+        "Colitis": {
+            "Definition": "A disorder characterized by inflammation of the colon.",
+            "Grade 1": "Asymptomatic; clinical or diagnostic observations only; intervention not indicated",
+            "Grade 2": "Abdominal pain; mucus or blood in stool",
+            "Grade 3": "Severe abdominal pain; peritoneal signs",
+            "Grade 4": "Life-threatening consequences; urgent intervention indicated",
+            "Grade 5": "Death"
+        },
+        "Colonic hemorrhage": {
+            "Definition": "A disorder characterized by bleeding from the colon.",
+            "Grade 1": "Mild symptoms; intervention not indicated",
+            "Grade 2": "Moderate symptoms; intervention indicated",
+            "Grade 3": "Transfusion indicated; invasive intervention indicated; hospitalization",
+            "Grade 4": "Life-threatening consequences; urgent intervention indicated",
+            "Grade 5": "Death"
+        },
+        "Colonic perforation": {
+            "Definition": "A disorder characterized by a rupture in the colonic wall.",
+            "Grade 1": " -",
+            "Grade 2": "Invasive intervention not indicated",
+            "Grade 3": "Invasive intervention indicated",
+            "Grade 4": "Life-threatening consequences; urgent intervention indicated",
+            "Grade 5": "Death"
+        },
+        "Colonic ulcer": {
+            "Definition": "A disorder characterized by a circumscribed, erosive lesion on the mucosal surface of the colon.",
+            "Grade 1": "Asymptomatic; clinical or diagnostic observations only; intervention not indicated",
+            "Grade 2": "Symptomatic; altered GI function",
+            "Grade 3": "Severely altered GI function; TPN indicated; elective invasive intervention indicated",
+            "Grade 4": "Life-threatening consequences; urgent operative intervention indicated",
+            "Grade 5": "Death"
+        },
+        "Diarrhea": {
+            "Definition": "A disorder characterized by an increase in frequency and/or loose or watery bowel movements.",
+            "Grade 1": "Increase of <4 stools per day over baseline; mild increase in ostomy output compared to baseline",
+            "Grade 2": "Increase of 4 - 6 stools per day over baseline; moderate increase in ostomy output compared to baseline; limiting instrumental ADL",
+            "Grade 3": "Increase of >=7 stools per day over baseline; hospitalization indicated; severe increase in ostomy output compared to baseline; limiting self care ADL",
+            "Grade 4": "Life-threatening consequences; urgent intervention indicated",
+            "Grade 5": "Death"
+        },
+        "Enterocolitis": {
+            "Definition": "A disorder characterized by inflammation of the small and large intestines.",
+            "Grade 1": "Asymptomatic; clinical or diagnostic observations only; intervention not indicated",
+            "Grade 2": "Abdominal pain; mucus or blood in stool",
+            "Grade 3": "Severe or persistent abdominal pain; fever; ileus; peritoneal signs",
+            "Grade 4": "Life-threatening consequences; urgent intervention indicated",
+            "Grade 5": "Death"
+        },
+        "Fecal incontinence": {
+            "Definition": "A disorder characterized by inability to control the escape of stool from the rectum.",
+            "Grade 1": "Occasional use of pads required",
+            "Grade 2": "Daily use of pads required",
+            "Grade 3": "Severe symptoms; elective operative intervention indicated",
+            "Grade 4": " -",
+            "Grade 5": " -"
+        },
+        "Proctitis": {
+            "Definition": "A disorder characterized by inflammation of the rectum.",
+            "Grade 1": "Rectal discomfort, intervention not indicated",
+            "Grade 2": "Symptomatic (e.g., rectal discomfort, passing blood or mucus); medical intervention indicated; limiting instrumental ADL",
+            "Grade 3": "Severe symptoms; fecal urgency or stool incontinence; limiting self care ADL",
+            "Grade 4": "Life-threatening consequences; urgent intervention indicated",
+            "Grade 5": "Death"
+        },
+        "Rectal mucositis": {
+            "Definition": "A disorder characterized by ulceration or inflammation of the mucous membrane of the rectum.",
+            "Grade 1": "Asymptomatic or mild symptoms; intervention not indicated",
+            "Grade 2": "Symptomatic; medical intervention indicated; limiting instrumental ADL",
+            "Grade 3": "Severe symptoms; limiting self care ADL",
+            "Grade 4": "Life-threatening consequences; urgent operative intervention indicated",
+            "Grade 5": "Death"
+        },
+        "Typhlitis": {
+            "Definition": "A disorder characterized by necrotizing enterocolitis in neutropenic patients.",
+            "Grade 1": " -",
+            "Grade 2": " -",
+            "Grade 3": "Symptomatic (e.g., abdominal pain, fever, change in bowel habits with ileus); peritoneal signs",
+            "Grade 4": "Life-threatening consequences; urgent operative intervention indicated",
+            "Grade 5": "Death"
+        }
+    },
+    "Hepatitis-associated symptoms": {
+        "Budd-Chiari syndrome": {
+            "Definition": "A disorder characterized by occlusion of the hepatic veins and typically presents with abdominal pain, ascites and hepatomegaly.",
+            "Grade 1": " -",
+            "Grade 2": "Medical management indicated",
+            "Grade 3": "Severe or medically significant but not immediately life-threatening; hospitalization or prolongation of existing hospitalization indicated; asterixis; mild encephalopathy",
+            "Grade 4": "Life-threatening consequences; moderate to severe encephalopathy; coma",
+            "Grade 5": "Death"
+        },
+        "Hepatic failure": {
+            "Definition": "A disorder characterized by the inability of the liver to metabolize chemicals in the body. Laboratory test results reveal abnormal plasma levels of ammonia, bilirubin, lactic dehydrogenase, alkaline phosphatase, aminotransferase, and/or prolongation of prothrombin time (INR.) Drug-induced liever injury (DILI) as defined by Hy's Law.",
+            "Grade 1": " -",
+            "Grade 2": " -",
+            "Grade 3": "Asterixis; mild encephalopathy; drug-induced liver injury (DILI); limiting self care ADL",
+            "Grade 4": "Life-threatening consequences; moderate to severe encephalopathy; coma",
+            "Grade 5": "Death"
+        },
+        "Hepatic hemorrhage": {
+            "Definition": "A disorder characterized by bleeding from the liver.",
+            "Grade 1": "Mild symptoms; intervention not indicated",
+            "Grade 2": "Moderate symptoms; intervention indicated",
+            "Grade 3": "Transfusion indicated; invasive intervention indicated; hospitalization",
+            "Grade 4": "Life-threatening consequences; urgent intervention indicated",
+            "Grade 5": "Death"
+        },
+        "Hepatic necrosis": {
+            "Definition": "A disorder characterized by a necrotic process occurring in the hepatic parenchyma.",
+            "Grade 1": " -",
+            "Grade 2": " -",
+            "Grade 3": " -",
+            "Grade 4": "Life-threatening consequences; urgent invasive intervention indicated",
+            "Grade 5": "Death"
+        },
+        "Hepatic pain": {
+            "Definition": "A disorder characterized by a sensation of marked discomfort in the liver region.",
+            "Grade 1": "Mild pain",
+            "Grade 2": "Moderate pain; limiting instrumental ADL",
+            "Grade 3": "Severe pain; limiting self care ADL",
+            "Grade 4": " -",
+            "Grade 5": " -"
+        },
+        "Sinusoidal obstruction syndrome": {
+            "Definition": "A disorder characterized by severe hepatic injury as a result of the blood vessels of the liver becoming inflamed and/or blocked.",
+            "Grade 1": " -",
+            "Grade 2": "Blood bilirubin 2-5 mg/dL; minor interventions required (i.e., blood product, diuretic, oxygen)",
+            "Grade 3": "Blood bilirubin >5 mg/dL; coagulation modifier indicated (e.g., defibrotide); reversal of flow on ultrasound",
+            "Grade 4": "Life-threatening consequences (e.g., ventilatory support, dialysis, plasmapheresis, peritoneal drainage)",
+            "Grade 5": "Death"
+        },
+        "Alanine aminotransferase increased": {
+            "Definition": "A finding based on laboratory test results that indicate an increase in the level of alanine aminotransferase (ALT or SGPT) in the blood specimen.",
+            "Grade 1": ">ULN - 3.0 x ULN if baseline was normal; 1.5 - 3.0 x baseline if baseline was abnormal",
+            "Grade 2": ">3.0 - 5.0 x ULN if baseline was normal; >3.0 - 5.0 x baseline if baseline was abnormal",
+            "Grade 3": ">5.0 - 20.0 x ULN if baseline was normal; >5.0 - 20.0 x baseline if baseline was abnormal",
+            "Grade 4": ">20.0 x ULN if baseline was normal; >20.0 x baseline if baseline was abnormal",
+            "Grade 5": " -"
+        },
+        "Alkaline phosphatase increased": {
+            "Definition": "A finding based on laboratory test results that indicate an increase in the level of alkaline phosphatase in a blood specimen.",
+            "Grade 1": ">ULN - 2.5 x ULN if baseline was normal; 2.0 - 2.5 x baseline if baseline was abnormal",
+            "Grade 2": ">2.5 - 5.0 x ULN if baseline was normal; >2.5 - 5.0 x baseline if baseline was abnormal",
+            "Grade 3": ">5.0 - 20.0 x ULN if baseline was normal; >5.0 - 20.0 x baseline if baseline was abnormal",
+            "Grade 4": ">20.0 x ULN if baseline was normal; >20.0 x baseline if baseline was abnormal",
+            "Grade 5": " -"
+        },
+        "Aspartate aminotransferase increased": {
+            "Definition": "A finding based on laboratory test results that indicate an increase in the level of aspartate aminotransferase (AST or SGOT) in a blood specimen.",
+            "Grade 1": ">ULN - 3.0 x ULN if baseline was normal; 1.5 - 3.0 x baseline if baseline was abnormal",
+            "Grade 2": ">3.0 - 5.0 x ULN if baseline was normal; >3.0 - 5.0 x baseline if baseline was abnormal",
+            "Grade 3": ">5.0 - 20.0 x ULN if baseline was normal; >5.0 - 20.0 x baseline if baseline was abnormal",
+            "Grade 4": ">20.0 x ULN if baseline was normal; >20.0 x baseline if baseline was abnormal",
+            "Grade 5": " -"
+        },
+        "Blood bilirubin increased": {
+            "Definition": "A finding based on laboratory test results that indicate an abnormally high level of bilirubin in the blood. Excess bilirubin is associated with jaundice.",
+            "Grade 1": ">ULN - 1.5 x ULN if baseline was normal; > 1.0 - 1.5 x baseline if baseline was abnormal",
+            "Grade 2": ">1.5 - 3.0 x ULN if baseline was normal; >1.5 - 3.0 x baseline if baseline was abnormal",
+            "Grade 3": ">3.0 - 10.0 x ULN if baseline was normal; >3.0 - 10.0 x baseline if baseline was abnormal",
+            "Grade 4": ">10.0 x ULN if baseline was normal; >10.0 x baseline if baseline was abnormal",
+            "Grade 5": " -"
+        }
+    },
+    "Pneumonitis-associated symptoms": {
+        "Adult respiratory distress syndrome": {
+            "Definition": "A disorder characterized by progressive and life-threatening pulmonary distress in the absence of an underlying pulmonary condition, usually following major trauma or surgery.",
+            "Grade 1": " -",
+            "Grade 2": " -",
+            "Grade 3": "Present with radiologic findings; intubation not indicated",
+            "Grade 4": "Life-threatening respiratory or hemodynamic compromise; intubation or urgent intervention indicated",
+            "Grade 5": "Death"
+        },
+        "Aspiration": {
+            "Definition": "A disorder characterized by inhalation of solids or liquids into the lungs.",
+            "Grade 1": "Asymptomatic; clinical or diagnostic observations only; intervention not indicated",
+            "Grade 2": "Altered eating habits; coughing or choking episodes after eating or swallowing; medical intervention indicated (e.g., suction or oxygen)",
+            "Grade 3": "Dyspnea and pneumonia symptoms (e.g., aspiration pneumonia); hospitalization indicated; unable to aliment orally",
+            "Grade 4": "Life-threatening respiratory or hemodynamic compromise; intubation or urgent intervention indicated",
+            "Grade 5": "Death"
+        },
+        "Atelectasis": {
+            "Definition": "A disorder characterized by the collapse of part or the entire lung.",
+            "Grade 1": "Asymptomatic; clinical or diagnostic observations only; intervention not indicated",
+            "Grade 2": "Symptomatic (e.g., dyspnea, cough); medical intervention indicated (e.g., chest physiotherapy, suctioning); bronchoscopic suctioning",
+            "Grade 3": "Supplemental oxygen indicated; hospitalization or elective operative intervention indicated (e.g., stent, laser)",
+            "Grade 4": "Life-threatening respiratory or hemodynamic compromise; intubation or urgent intervention indicated",
+            "Grade 5": "Death"
+        },
+        "Bronchopulmonary hemorrhage": {
+            "Definition": "A disorder characterized by bleeding from the bronchial wall and/or lung parenchyma.",
+            "Grade 1": "Mild symptoms; intervention not indicated",
+            "Grade 2": "Moderate symptoms; invasive intervention not indicated",
+            "Grade 3": "Transfusion indicated; invasive intervention indicated; hospitalization",
+            "Grade 4": "Life-threatening consequences; intubation or urgent intervention indicated",
+            "Grade 5": "Death"
+        },
+        "Cough": {
+            "Definition": "A disorder characterized by sudden, often repetitive, spasmodic contraction of the thoracic cavity, resulting in violent release of air from the lungs and usually accompanied by a distinctive sound.",
+            "Grade 1": "Mild symptoms; nonprescription intervention indicated",
+            "Grade 2": "Moderate symptoms, medical intervention indicated; limiting instrumental ADL",
+            "Grade 3": "Severe symptoms; limiting self care ADL",
+            "Grade 4": " -",
+            "Grade 5": " -"
+        },
+        "Dyspnea": {
+            "Definition": "A disorder characterized by an uncomfortable sensation of difficulty breathing.",
+            "Grade 1": "Shortness of breath with moderate exertion",
+            "Grade 2": "Shortness of breath with minimal exertion; limiting instrumental ADL",
+            "Grade 3": "Shortness of breath at rest; limiting self care ADL",
+            "Grade 4": "Life-threatening consequences; urgent intervention indicated",
+            "Grade 5": "Death"
+        },
+        "Hypoxia": {
+            "Definition": "A disorder characterized by a decrease in the level of oxygen in the body.",
+            "Grade 1": " -",
+            "Grade 2": "Decreased oxygen saturation with exercise (e.g., pulse oximeter <88%); intermittent supplemental oxygen",
+            "Grade 3": "Decreased oxygen saturation at rest (e.g., pulse oximeter <88% or PaO2 <=55 mm Hg)",
+            "Grade 4": "Life-threatening airway compromise; urgent intervention indicated (e.g., tracheotomy or intubation)",
+            "Grade 5": "Death"
+        },
+        "Pleural effusion": {
+            "Definition": "A disorder characterized by an increase in amounts of fluid within the pleural cavity. Symptoms include shortness of breath, cough and marked chest discomfort.",
+            "Grade 1": "Asymptomatic; clinical or diagnostic observations only; intervention not indicated",
+            "Grade 2": "Symptomatic; intervention indicated (e.g., diuretics or therapeutic thoracentesis)",
+            "Grade 3": "Symptomatic with respiratory distress and hypoxia; operative intervention including chest tube or pleurodesis indicated",
+            "Grade 4": "Life-threatening respiratory or hemodynamic compromise; intubation or urgent intervention indicated",
+            "Grade 5": "Death"
+        },
+        "Pleuritic pain": {
+            "Definition": "A disorder characterized by a sensation of marked discomfort in the pleura.",
+            "Grade 1": "Mild pain",
+            "Grade 2": "Moderate pain; limiting instrumental ADL",
+            "Grade 3": "Severe pain; limiting self care ADL",
+            "Grade 4": " -",
+            "Grade 5": " -"
+        },
+        "Pneumonitis": {
+            "Definition": "A disorder characterized by inflammation focally or diffusely affecting the lung parenchyma.",
+            "Grade 1": "Asymptomatic; clinical or diagnostic observations only; intervention not indicated",
+            "Grade 2": "Symptomatic; medical intervention indicated; limiting instrumental ADL",
+            "Grade 3": "Severe symptoms; limiting self care ADL; oxygen indicated",
+            "Grade 4": "Life-threatening respiratory compromise; urgent intervention indicated (e.g., tracheotomy or intubation)",
+            "Grade 5": "Death"
+        },
+        "Pulmonary edema": {
+            "Definition": "A disorder characterized by accumulation of fluid in the lung tissues that causes a disturbance of the gas exchange that may lead to respiratory failure.",
+            "Grade 1": "Radiologic findings only; minimal dyspnea on exertion",
+            "Grade 2": "Moderate dyspnea on exertion; medical intervention indicated; limiting instrumental ADL",
+            "Grade 3": "Severe dyspnea or dyspnea at rest; oxygen indicated; limiting self care ADL",
+            "Grade 4": "Life-threatening respiratory compromise; urgent intervention or intubation with ventilatory support indicated",
+            "Grade 5": "Death"
+        },
+        "Pulmonary fibrosis": {
+            "Definition": "A disorder characterized by the replacement of the lung tissue by connective tissue, leading to progressive dyspnea, respiratory failure or right heart failure.",
+            "Grade 1": "Radiologic pulmonary fibrosis <25% of lung volume associated with hypoxia",
+            "Grade 2": "Evidence of pulmonary hypertension; radiographic pulmonary fibrosis 25 - 50% associated with hypoxia",
+            "Grade 3": "Severe hypoxia; evidence of right-sided heart failure; radiographic pulmonary fibrosis >50 - 75%",
+            "Grade 4": "Life-threatening consequences (e.g., hemodynamic/pulmonary complications); intubation with ventilatory support indicated; radiographic pulmonary fibrosis >75% with severe honeycombing",
+            "Grade 5": "Death"
+        },
+        "Respiratory failure": {
+            "Definition": "A disorder characterized by impaired gas exchange by the respiratory system resulting in hypoxia and a decrease in oxygenation of the tissues that may be associated with an increase in arterial levels of carbon dioxide.",
+            "Grade 1": " -",
+            "Grade 2": " -",
+            "Grade 3": " -",
+            "Grade 4": "Life-threatening consequences; urgent intervention, intubation, or ventilatory support indicated",
+            "Grade 5": "Death"
+        }
+    },
+    "Dermatitis-associated symptoms": {
+        "Bullous dermatitis": {
+            "Definition": "A disorder characterized by inflammation of the skin characterized by the presence of bullae which are filled with fluid.",
+            "Grade 1": "Asymptomatic; blisters covering <10% BSA",
+            "Grade 2": "Blisters covering 10 - 30% BSA; painful blisters; limiting instrumental ADL",
+            "Grade 3": "Blisters covering >30% BSA; limiting self care ADL",
+            "Grade 4": "Blisters covering >30% BSA; associated with fluid or electrolyte abnormalities; ICU care or burn unit indicated",
+            "Grade 5": "Death"
+        },
+        "Dry skin": {
+            "Definition": "A disorder characterized by flaky and dull skin; the pores are generally fine, the texture is a papery thin texture.",
+            "Grade 1": "Covering <10% BSA and no associated erythema or pruritus",
+            "Grade 2": "Covering 10 - 30% BSA and associated with erythema or pruritus; limiting instrumental ADL",
+            "Grade 3": "Covering >30% BSA and associated with pruritus; limiting self care ADL",
+            "Grade 4": " -",
+            "Grade 5": " -"
+        },
+        "Eczema": {
+            "Definition": "A disorder characterized by skin which becomes itchy, red, inflamed, crusty, thick, scaly, and/or forms blisters.",
+            "Grade 1": "Asymptomatic or mild symptoms;\u00a0additional medical intervention over baseline not indicated",
+            "Grade 2": "Moderate; topical or oral intervention indicated; additional medical intervention over baseline indicated",
+            "Grade 3": "Severe or medically significant but not immediately life-threatening; IV intervention indicated",
+            "Grade 4": " -",
+            "Grade 5": " -"
+        },
+        "Erythema multiforme": {
+            "Definition": "A disorder characterized by target lesions (a pink-red ring around a pale center).",
+            "Grade 1": "Target lesions covering <10% BSA and not associated with skin tenderness",
+            "Grade 2": "Target lesions covering 10 - 30% BSA and associated with skin tenderness",
+            "Grade 3": "Target lesions covering >30% BSA and associated with oral or genital erosions",
+            "Grade 4": "Target lesions covering >30% BSA; associated with fluid or electrolyte abnormalities; ICU care or burn unit indicated",
+            "Grade 5": "Death"
+        },
+        "Erythroderma": {
+            "Definition": "A disorder characterized by generalized inflammatory erythema and exfoliation. The inflammatory process involves > 90% of the body surface area.",
+            "Grade 1": " -",
+            "Grade 2": "Erythema covering >90% BSA without associated symptoms; limiting instrumental ADL",
+            "Grade 3": "Erythema covering >90% BSA with associated symptoms (e.g., pruritus or tenderness); limiting self care ADL",
+            "Grade 4": "Erythema covering >90% BSA with associated fluid or electrolyte abnormalities; ICU care or burn unit indicated",
+            "Grade 5": "Death"
+        },
+        "Pain of skin": {
+            "Definition": "A disorder characterized by a sensation of marked discomfort in the skin.",
+            "Grade 1": "Mild pain",
+            "Grade 2": "Moderate pain; limiting instrumental ADL",
+            "Grade 3": "Severe pain; limiting self care ADL",
+            "Grade 4": " -",
+            "Grade 5": " -"
+        },
+        "Pruritus": {
+            "Definition": "A disorder characterized by an intense itching sensation.",
+            "Grade 1": "Mild or localized; topical intervention indicated",
+            "Grade 2": "Widespread and intermittent; skin changes from scratching (e.g., edema, papulation, excoriations, lichenification, oozing/crusts); oral intervention indicated; limiting instrumental ADL",
+            "Grade 3": "Widespread and constant; limiting self care ADL or sleep; systemic corticosteroid or immunosuppressive therapy indicated",
+            "Grade 4": " -",
+            "Grade 5": " -"
+        },
+        "Rash acneiform": {
+            "Definition": "A disorder characterized by an eruption of papules and pustules, typically appearing in face, scalp, upper chest and back.",
+            "Grade 1": "Papules and/or pustules covering <10% BSA, which may or may not be associated with symptoms of pruritus or tenderness",
+            "Grade 2": "Papules and/or pustules covering 10 - 30% BSA, which may or may not be associated with symptoms of pruritus or tenderness; associated with psychosocial impact; limiting instrumental ADL; papules and/or pustules covering > 30% BSA with or without mild symptoms",
+            "Grade 3": "Papules and/or pustules covering >30% BSA with moderate or severe symptoms; limiting self-care ADL; associated with local superinfection with oral antibiotics indicated",
+            "Grade 4": "Life-threatening consequences; papules and/or pustules covering any % BSA, which may or may not be associated with symptoms of pruritus or tenderness and are associated with extensive superinfection with IV antibiotics indicated",
+            "Grade 5": "Death"
+        },
+        "Rash maculo-papular": {
+            "Definition": "A disorder characterized by the presence of macules (flat) and papules (elevated). Also known as morbillform rash, it is one of the most common cutaneous adverse events, frequently affecting the upper trunk, spreading centripetally and associated with pruritis.",
+            "Grade 1": "Macules/papules covering <10% BSA with or without symptoms (e.g., pruritus, burning, tightness)",
+            "Grade 2": "Macules/papules covering 10 - 30% BSA with or without symptoms (e.g., pruritus, burning, tightness); limiting instrumental ADL; rash covering > 30% BSA with or without mild symptoms",
+            "Grade 3": "Macules/papules covering >30% BSA with moderate or severe symptoms; limiting self care ADL",
+            "Grade 4": " -",
+            "Grade 5": " -"
+        },
+        "Skin ulceration": {
+            "Definition": "A disorder characterized by a circumscribed, erosive lesion on the skin.",
+            "Grade 1": "Combined area of ulcers <1 cm; nonblanchable erythema of intact skin with associated warmth or edema",
+            "Grade 2": "Combined area of ulcers 1 - 2 cm; partial thickness skin loss involving skin or subcutaneous fat",
+            "Grade 3": "Combined area of ulcers >2 cm; full-thickness skin loss involving damage to or necrosis of subcutaneous tissue that may extend down to fascia",
+            "Grade 4": "Any size ulcer with extensive destruction, tissue necrosis, or damage to muscle, bone, or supporting structures with or without full thickness skin loss",
+            "Grade 5": "Death"
+        },
+        "Stevens-Johnson syndrome": {
+            "Definition": "A disorder characterized by less than 10% total body skin area separation of dermis. The syndrome is thought to be a hypersensitivity complex affecting the skin and the mucous membranes.",
+            "Grade 1": " -",
+            "Grade 2": " -",
+            "Grade 3": "Skin sloughing covering <10% BSA with associated signs (e.g., erythema, purpura, epidermal detachment, and mucous membrane detachment)",
+            "Grade 4": "Skin sloughing covering 10 - 30% BSA with associated signs (e.g., erythema, purpura, epidermal detachment and mucous membrane detachment)",
+            "Grade 5": "Death"
+        },
+        "Toxic epidermal necrolysis": {
+            "Definition": "A disorder characterized by greater than 30% total body skin area separation of dermis. The syndrome is thought to be a hypersensitivity complex affecting the skin and the mucous membranes.",
+            "Grade 1": " -",
+            "Grade 2": " -",
+            "Grade 3": " -",
+            "Grade 4": "Skin sloughing covering >=30% BSA with associated symptoms (e.g., erythema, purpura, or epidermal detachment)",
+            "Grade 5": "Death"
+        },
+        "Urticaria": {
+            "Definition": "A disorder characterized by an itchy skin eruption characterized by wheals with pale interiors and well-defined red margins.",
+            "Grade 1": "Urticarial lesions covering <10% BSA; topical intervention indicated",
+            "Grade 2": "Urticarial lesions covering 10 - 30% BSA; oral intervention indicated",
+            "Grade 3": "Urticarial lesions covering >30% BSA; IV intervention indicated",
+            "Grade 4": " -",
+            "Grade 5": " -"
+        }
+    }
+}

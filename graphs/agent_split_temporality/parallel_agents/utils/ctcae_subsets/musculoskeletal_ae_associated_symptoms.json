@@ -1,0 +1,52 @@
+{
+    "Musculoskeletal AE-associated symptoms": {
+        "Arthralgia": {
+            "Definition": "A disorder characterized by a sensation of marked discomfort in a joint.",
+            "Grade 1": "Mild pain",
+            "Grade 2": "Moderate pain; limiting instrumental ADL",
+            "Grade 3": "Severe pain; limiting self care ADL",
+            "Grade 4": "-",
+            "Grade 5": "-"
+        },
+        "Arthritis": {
+            "Definition": "A disorder characterized by inflammation of a joint.",
+            "Grade 1": "Mild pain with inflammation, erythema, or joint swelling",
+            "Grade 2": "Moderate pain associated with signs of inflammation, erythema, or joint swelling; limiting instrumental ADL",
+            "Grade 3": "Severe pain associated with signs of inflammation, erythema, or joint swelling; irreversible joint damage; limiting self care ADL",
+            "Grade 4": "-",
+            "Grade 5": "-"
+        },
+        "Myalgia": {
+            "Definition": "A disorder characterized by marked discomfort sensation originating from a muscle or group of muscles.",
+            "Grade 1": "Mild pain",
+            "Grade 2": "Moderate pain; limiting instrumental ADL",
+            "Grade 3": "Severe pain; limiting self care ADL",
+            "Grade 4": "-",
+            "Grade 5": "-"
+        },
+        "Myositis": {
+            "Definition": "A disorder characterized by inflammation of the muscle.",
+            "Grade 1": "Mild pain",
+            "Grade 2": "Moderate pain associated with weakness; pain limiting instrumental ADL",
+            "Grade 3": "Pain associated with severe weakness; limiting self care ADL",
+            "Grade 4": "-",
+            "Grade 5": "-"
+        },
+        "Polymyalgia rheumatica": {
+            "Definition": "A disorder characterized by stiffness and pain in the muscles of the neck, shoulder, and pelvic girdle.",
+            "Grade 1": "Mild pain; no decrease in range of motion (ROM)",
+            "Grade 2": "Moderate pain; decrease in ROM",
+            "Grade 3": "Severe pain; decrease in ROM",
+            "Grade 4": "-",
+            "Grade 5": "-"
+        },
+        "Rhabdomyolysis": {
+            "Definition": "A disorder characterized by the breakdown of muscle tissue with leakage of muscle contents into the bloodstream.",
+            "Grade 1": "Creatine kinase increase >2.5 x ULN",
+            "Grade 2": "Creatine kinase increase >5 x ULN",
+            "Grade 3": "Creatine kinase increase >10 x ULN with signs or symptoms of muscle breakdown",
+            "Grade 4": "Life-threatening consequences; urgent intervention indicated",
+            "Grade 5": "Death"
+        }
+    }
+} 

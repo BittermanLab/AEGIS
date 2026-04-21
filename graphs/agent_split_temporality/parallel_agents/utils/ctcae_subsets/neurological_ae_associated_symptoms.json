@@ -1,0 +1,52 @@
+{
+    "Neurological AE-associated symptoms": {
+        "Guillain-Barre syndrome": {
+            "Definition": "A disorder characterized by the body's immune system attacking the peripheral nervous system causing muscle weakness and sensory abnormalities.",
+            "Grade 1": "Mild symptoms",
+            "Grade 2": "Moderate symptoms; limiting instrumental ADL",
+            "Grade 3": "Severe symptoms; limiting self care ADL",
+            "Grade 4": "Life-threatening consequences; urgent intervention indicated",
+            "Grade 5": "Death"
+        },
+        "Encephalitis": {
+            "Definition": "A disorder characterized by inflammation of the brain parenchyma.",
+            "Grade 1": "Asymptomatic; mild symptoms",
+            "Grade 2": "Moderate symptoms; limiting instrumental ADL",
+            "Grade 3": "Severe symptoms; limiting self care ADL; hospitalization indicated",
+            "Grade 4": "Life-threatening consequences; urgent intervention indicated",
+            "Grade 5": "Death"
+        },
+        "Meningitis": {
+            "Definition": "A disorder characterized by inflammation of the meninges of the brain and/or spinal cord.",
+            "Grade 1": "Asymptomatic; mild symptoms",
+            "Grade 2": "Moderate symptoms; limiting instrumental ADL",
+            "Grade 3": "Severe symptoms; limiting self care ADL; hospitalization indicated",
+            "Grade 4": "Life-threatening consequences; urgent intervention indicated",
+            "Grade 5": "Death"
+        },
+        "Neuropathy": {
+            "Definition": "A disorder characterized by inflammation or degeneration of the peripheral nerves.",
+            "Grade 1": "Asymptomatic; clinical or diagnostic observations only; intervention not indicated",
+            "Grade 2": "Moderate symptoms; limiting instrumental ADL",
+            "Grade 3": "Severe symptoms; limiting self care ADL",
+            "Grade 4": "Life-threatening consequences; urgent intervention indicated",
+            "Grade 5": "Death"
+        },
+        "Peripheral motor neuropathy": {
+            "Definition": "A disorder characterized by inflammation or degeneration of the peripheral motor nerves.",
+            "Grade 1": "Asymptomatic; clinical or diagnostic observations only; intervention not indicated",
+            "Grade 2": "Moderate symptoms; limiting instrumental ADL",
+            "Grade 3": "Severe symptoms; limiting self care ADL",
+            "Grade 4": "Life-threatening consequences; urgent intervention indicated",
+            "Grade 5": "Death"
+        },
+        "Peripheral sensory neuropathy": {
+            "Definition": "A disorder characterized by inflammation or degeneration of the peripheral sensory nerves.",
+            "Grade 1": "Asymptomatic; loss of deep tendon reflexes or paresthesia",
+            "Grade 2": "Moderate symptoms; limiting instrumental ADL",
+            "Grade 3": "Severe symptoms; limiting self care ADL",
+            "Grade 4": "Life-threatening consequences; urgent intervention indicated",
+            "Grade 5": "Death"
+        }
+    }
+} 

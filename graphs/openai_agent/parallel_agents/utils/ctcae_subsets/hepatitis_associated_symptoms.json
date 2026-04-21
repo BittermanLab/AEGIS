@@ -1,0 +1,68 @@
+{
+    "Hepatitis-associated symptoms": {
+        "Budd-Chiari syndrome": {
+            "Definition": "A disorder characterized by occlusion of the hepatic veins and typically presents with abdominal pain, ascites and hepatomegaly.",
+            "Grade 1": " -",
+            "Grade 2": "Medical management indicated",
+            "Grade 3": "Severe or medically significant but not immediately life-threatening; hospitalization or prolongation of existing hospitalization indicated; asterixis; mild encephalopathy",
+            "Grade 4": "Life-threatening consequences; moderate to severe encephalopathy; coma",
+            "Grade 5": "Death"
+        },
+        "Hepatic failure": {
+            "Definition": "A disorder characterized by the inability of the liver to metabolize chemicals in the body. Laboratory test results reveal abnormal plasma levels of ammonia, bilirubin, lactic dehydrogenase, alkaline phosphatase, aminotransferase, and/or prolongation of prothrombin time (INR.) Drug-induced liever injury (DILI) as defined by Hy's Law.",
+            "Grade 1": " -",
+            "Grade 2": " -",
+            "Grade 3": "Asterixis; mild encephalopathy; drug-induced liver injury (DILI); limiting self care ADL",
+            "Grade 4": "Life-threatening consequences; moderate to severe encephalopathy; coma",
+            "Grade 5": "Death"
+        },
+        "Hepatic hemorrhage": {
+            "Definition": "A disorder characterized by bleeding from the liver.",
+            "Grade 1": "Mild symptoms; intervention not indicated",
+            "Grade 2": "Moderate symptoms; intervention indicated",
+            "Grade 3": "Transfusion indicated; invasive intervention indicated; hospitalization",
+            "Grade 4": "Life-threatening consequences; urgent intervention indicated",
+            "Grade 5": "Death"
+        },
+        "Hepatic necrosis": {
+            "Definition": "A disorder characterized by a necrotic process occurring in the hepatic parenchyma.",
+            "Grade 1": " -",
+            "Grade 2": " -",
+            "Grade 3": " -",
+            "Grade 4": "Life-threatening consequences; urgent invasive intervention indicated",
+            "Grade 5": "Death"
+        },
+        "Alanine aminotransferase increased": {
+            "Definition": "A finding based on laboratory test results that indicate an increase in the level of alanine aminotransferase (ALT or SGPT) in the blood specimen.",
+            "Grade 1": ">ULN - 3.0 x ULN if baseline was normal; 1.5 - 3.0 x baseline if baseline was abnormal",
+            "Grade 2": ">3.0 - 5.0 x ULN if baseline was normal; >3.0 - 5.0 x baseline if baseline was abnormal",
+            "Grade 3": ">5.0 - 20.0 x ULN if baseline was normal; >5.0 - 20.0 x baseline if baseline was abnormal",
+            "Grade 4": ">20.0 x ULN if baseline was normal; >20.0 x baseline if baseline was abnormal",
+            "Grade 5": " -"
+        },
+        "Alkaline phosphatase increased": {
+            "Definition": "A finding based on laboratory test results that indicate an increase in the level of alkaline phosphatase in a blood specimen.",
+            "Grade 1": ">ULN - 2.5 x ULN if baseline was normal; 2.0 - 2.5 x baseline if baseline was abnormal",
+            "Grade 2": ">2.5 - 5.0 x ULN if baseline was normal; >2.5 - 5.0 x baseline if baseline was abnormal",
+            "Grade 3": ">5.0 - 20.0 x ULN if baseline was normal; >5.0 - 20.0 x baseline if baseline was abnormal",
+            "Grade 4": ">20.0 x ULN if baseline was normal; >20.0 x baseline if baseline was abnormal",
+            "Grade 5": " -"
+        },
+        "Aspartate aminotransferase increased": {
+            "Definition": "A finding based on laboratory test results that indicate an increase in the level of aspartate aminotransferase (AST or SGOT) in a blood specimen.",
+            "Grade 1": ">ULN - 3.0 x ULN if baseline was normal; 1.5 - 3.0 x baseline if baseline was abnormal",
+            "Grade 2": ">3.0 - 5.0 x ULN if baseline was normal; >3.0 - 5.0 x baseline if baseline was abnormal",
+            "Grade 3": ">5.0 - 20.0 x ULN if baseline was normal; >5.0 - 20.0 x baseline if baseline was abnormal",
+            "Grade 4": ">20.0 x ULN if baseline was normal; >20.0 x baseline if baseline was abnormal",
+            "Grade 5": " -"
+        },
+        "Blood bilirubin increased": {
+            "Definition": "A finding based on laboratory test results that indicate an abnormally high level of bilirubin in the blood. Excess bilirubin is associated with jaundice.",
+            "Grade 1": ">ULN - 1.5 x ULN if baseline was normal; > 1.0 - 1.5 x baseline if baseline was abnormal",
+            "Grade 2": ">1.5 - 3.0 x ULN if baseline was normal; >1.5 - 3.0 x baseline if baseline was abnormal",
+            "Grade 3": ">3.0 - 10.0 x ULN if baseline was normal; >3.0 - 10.0 x baseline if baseline was abnormal",
+            "Grade 4": ">10.0 x ULN if baseline was normal; >10.0 x baseline if baseline was abnormal",
+            "Grade 5": " -"
+        }
+    }
+}

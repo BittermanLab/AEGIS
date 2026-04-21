@@ -1,0 +1,51 @@
+name: snowflake_dev_agent_sweep
+description: "OpenAI agent processor evaluation on clinical notes"
+
+environment: snowflake_dev  # Use development environment
+
+# Environment configuration
+environment_config:
+  name: snowflake_dev
+  # Import environment paths and settings
+  import: "config/environments/snowflake_dev.yaml"
+  # Override only the specific settings we want to change
+  runtime:
+    max_samples: 10  # Use moderate sample size for dev testing
+    use_azure: true
+    azure_endpoint: "https://bwh-bittermanlab-nonprod-openai-service.openai.azure.com/"
+    deployment_name: "gpt-4o-mini-jg"
+    run_gold_error_eval: false  
+  parameters:
+    event_types:
+      - "pneumonitis"
+      - "myocarditis"
+      - "colitis"
+      - "thyroiditis"
+      - "hepatitis"
+      - "dermatitis"
+  logging:
+    level: "INFO"
+    save_intermediate: true
+    token_tracking: true
+
+# Override settings
+overrides:
+  max_parallel: 1  # Run experiments sequentially to avoid resource contention
+  max_concurrent_runs: 2
+# Experiment configurations
+experiments:
+  - name: openai_agent_default
+    graph_type: openai_agent
+    model_configs: 
+      - 4.1-mini
+    parameters:
+      configure_azure: true
+      batch_size: 100 
+    prompt_variant: "default"
+    description: "OpenAI Agent SDK processor with optimized settings"
+
+metrics:
+  save_predictions: true
+  save_intermediate_steps: true
+  track_tokens: true
+  track_latency: true

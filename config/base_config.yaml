@@ -1,0 +1,129 @@
+# Base configuration for all experiments
+defaults:
+  max_retries: 3
+  timeout: 3000
+  stream: false
+  temperature: 0.0
+
+# LLM configurations
+llm_defaults:
+  mini:
+    model_name: "gpt-4o-mini-jg"
+  
+# Tool configurations
+tools:
+  targeted_extractor:
+    enabled: true
+    max_iterations: 3
+  targeted_grader:
+    enabled: true
+    max_iterations: 2
+  targeted_identifier:
+    enabled: true
+    max_iterations: 3
+  targeted_retriever:
+    enabled: true
+    max_iterations: 2
+
+# Graph configurations
+graph_defaults:
+  max_iterations: 5
+  early_stopping: true
+  timeout: 3000
+
+# Valid graph types and their configurations
+graph_types:
+  openai_agent:
+    parameters: 
+      event_types:
+        - "Pneumonitis"
+        - "Myocarditis"
+        - "Colitis"
+        - "Thyroiditis"
+        - "Hepatitis"
+        - "Dermatitis"
+    valid_models: ["default", "o1", "o3_mini", "o3_early", "o3_late", "hybrid", "ollama-deepseek-1b", "ollama-deepseek-8b", "ollama-deepseek-14b", "ollama-llama-1b", "4.1-mini", "4.1-nano", "4o-mini", "ollama-qwen3-14b", "vllm-deepseek-r1-8b", "vllm-qwen3-8b", "vllm-qwen3-14b", "vllm-qwen3-32b", "vllm-gemma3-4b", "vllm-gemma3-12b", "vllm-gemma3-27b", "vllm-medgemma-27b"]
+    prompt_variants:
+      default:
+        name: "default"
+        description: "Standard balanced instructions"
+        enabled: true
+      detailed:
+        name: "detailed"
+        description: "Detailed instructions with more examples"
+        enabled: true
+      concise:
+        name: "concise"
+        description: "Concise instructions for faster processing"
+        enabled: true
+      ablation_single:
+        name: "ablation_single"
+        description: "Ablation study with only 1 identifier agent per event"
+        enabled: true
+      ablation_no_judge:
+        name: "ablation_no_judge" 
+        description: "Ablation study with 3 identifiers but no judge selection"
+        enabled: true
+  agent_split_temporality:
+    parameters: 
+      event_types:
+        - "Pneumonitis"
+        - "Myocarditis"
+        - "Colitis"
+        - "Thyroiditis"
+        - "Hepatitis"
+        - "Dermatitis"
+    valid_models: ["default", "o1", "o3_mini", "o3_early", "o3_late", "hybrid", "ollama-deepseek-1b", "ollama-deepseek-8b", "ollama-deepseek-14b", "ollama-llama-1b", "4.1-mini", "4.1-nano", "4o-mini", "ollama-qwen3-14b", "vllm-deepseek-r1-8b", "vllm-qwen3-8b", "vllm-qwen3-14b", "vllm-qwen3-32b", "vllm-gemma3-4b", "vllm-gemma3-12b", "vllm-gemma3-27b", "vllm-medgemma-27b"]
+    prompt_variants:
+      default:
+        name: "default"
+        description: "Split temporality workflow with separate identification and temporal classification"
+        enabled: true
+  openai_zeroshot:
+    parameters: {}
+    valid_models: ["default", "o1", "o3_mini", "turbo", "ollama-deepseek-1b", "ollama-deepseek-8b", "ollama-deepseek-14b", "ollama-llama-1b", "ollama-qwen3-14b", "vllm-deepseek-r1-8b", "vllm-qwen3-8b", "vllm-qwen3-14b", "vllm-qwen3-32b", "vllm-gemma3-4b", "vllm-gemma3-12b", "vllm-gemma3-27b", "vllm-medgemma-27b"]
+    prompt_variants:
+      default:
+        name: "default"
+        description: "Standard instructions"
+        enabled: true
+  regex:
+    parameters: {}
+    valid_models: ["default"]
+    prompt_variants:
+      default:
+        name: "default"
+        description: "Standard regex pattern matching"
+        enabled: true
+
+
+# Model configurations
+model_configs:
+  default: {}
+  o1: {}
+  o3_mini: {}
+  o3_early: {}
+  o3_late: {}
+  hybrid: {}
+  4o-mini: {}
+  4.1-mini: {}
+  4.1-nano: {}
+  o3-mini: {}
+  o4-mini: {}
+  o3-judge: {}
+  o3-middle: {}
+  ollama-deepseek-1b: {}
+  ollama-deepseek-8b: {}
+  ollama-deepseek-14b: {}
+  ollama-llama-1b: {}
+  4.1-mini: {}
+  4.1-nano: {}
+  ollama-qwen3-14b: {}
+  vllm-deepseek-r1-8b: {}
+  vllm-qwen3-8b: {}
+  vllm-qwen3-14b: {}
+  vllm-qwen3-32b: {}
+  vllm-gemma3-4b: {}
+  vllm-gemma3-12b: {}
+  vllm-gemma3-27b: {}
+  vllm-medgemma-27b: {}

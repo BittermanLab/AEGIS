@@ -1,0 +1,31 @@
+name: snowflake_dev
+description: "Test environment using Snowflake test set"
+
+paths:
+  data_dir: "data/rwd/mgh_data/final_cohort/batch_15/"  # <-- Changed data directory
+  output_base_dir: "data/rwd/mgh_outputs/batch_15/" # <-- Changed output directory
+  evaluation_dir: "evaluation_results/mgh/batch_15" # <-- Changed evaluation directory
+  ctcae_path: "data/ctcae.json" # <-- Kept the same, adjust if needed
+
+runtime:
+  langsmith_tracing: false
+  debug: true
+  parallel_execution: true
+  max_parallel_tasks: 1
+  max_samples: 50
+
+logging:
+  level: "INFO"
+  save_intermediate: true
+  token_tracking: true
+
+evaluation:
+  metrics:
+    - accuracy
+    - precision
+    - recall
+    - f1
+  aggregations:
+    - by_graph_type
+    - by_model_config
+    - by_prompt_variant 

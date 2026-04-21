@@ -1,0 +1,68 @@
+{
+    "Colitis-associated symptoms": {
+        "Abdominal pain": {
+            "Definition": "A disorder characterized by a sensation of marked discomfort in the abdominal region.",
+            "Grade 1": "Mild pain",
+            "Grade 2": "Moderate pain; limiting instrumental ADL",
+            "Grade 3": "Severe pain; limiting self care ADL",
+            "Grade 4": " -",
+            "Grade 5": " -"
+        },
+        "Colitis": {
+            "Definition": "A disorder characterized by inflammation of the colon.",
+            "Grade 1": "Asymptomatic; clinical or diagnostic observations only; intervention not indicated",
+            "Grade 2": "Abdominal pain; mucus or blood in stool",
+            "Grade 3": "Severe abdominal pain; peritoneal signs",
+            "Grade 4": "Life-threatening consequences; urgent intervention indicated",
+            "Grade 5": "Death"
+        },
+        "Colonic hemorrhage": {
+            "Definition": "A disorder characterized by bleeding from the colon.",
+            "Grade 1": "Mild symptoms; intervention not indicated",
+            "Grade 2": "Moderate symptoms; intervention indicated",
+            "Grade 3": "Transfusion indicated; invasive intervention indicated; hospitalization",
+            "Grade 4": "Life-threatening consequences; urgent intervention indicated",
+            "Grade 5": "Death"
+        },
+        "Diarrhea": {
+            "Definition": "A disorder characterized by an increase in frequency and/or loose or watery bowel movements.",
+            "Grade 1": "Increase of <4 stools per day over baseline; mild increase in ostomy output compared to baseline",
+            "Grade 2": "Increase of 4 - 6 stools per day over baseline; moderate increase in ostomy output compared to baseline; limiting instrumental ADL",
+            "Grade 3": "Increase of >=7 stools per day over baseline; hospitalization indicated; severe increase in ostomy output compared to baseline; limiting self care ADL",
+            "Grade 4": "Life-threatening consequences; urgent intervention indicated",
+            "Grade 5": "Death"
+        },
+        "Enterocolitis": {
+            "Definition": "A disorder characterized by inflammation of the small and large intestines.",
+            "Grade 1": "Asymptomatic; clinical or diagnostic observations only; intervention not indicated",
+            "Grade 2": "Abdominal pain; mucus or blood in stool",
+            "Grade 3": "Severe or persistent abdominal pain; fever; ileus; peritoneal signs",
+            "Grade 4": "Life-threatening consequences; urgent intervention indicated",
+            "Grade 5": "Death"
+        },
+        "Gastritis": {
+            "Definition": "A disorder characterized by inflammation of the stomach.",
+            "Grade 1": "Asymptomatic; clinical or diagnostic observations only; intervention not indicated",
+            "Grade 2": "Symptomatic; altered GI function; medical intervention indicated",
+            "Grade 3": "Severely altered eating or gastric function; TPN or hospitalization indicated",
+            "Grade 4": "Life-threatening consequences; urgent operative intervention indicated",
+            "Grade 5": "Death"
+        },
+        "Proctitis": {
+            "Definition": "A disorder characterized by inflammation of the rectum.",
+            "Grade 1": "Rectal discomfort, intervention not indicated",
+            "Grade 2": "Symptomatic (e.g., rectal discomfort, passing blood or mucus); medical intervention indicated; limiting instrumental ADL",
+            "Grade 3": "Severe symptoms; fecal urgency or stool incontinence; limiting self care ADL",
+            "Grade 4": "Life-threatening consequences; urgent intervention indicated",
+            "Grade 5": "Death"
+        },
+        "Rectal hemorrhage": {
+            "Definition": "A disorder characterized by bleeding from the rectal wall and discharged from the anus.",
+            "Grade 1": "Mild symptoms; intervention not indicated",
+            "Grade 2": "Moderate symptoms; intervention indicated",
+            "Grade 3": "Transfusion indicated; invasive intervention indicated; hospitalization",
+            "Grade 4": "Life-threatening consequences; urgent intervention indicated",
+            "Grade 5": "Death"
+        }
+    }
+}

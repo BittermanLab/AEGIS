@@ -1,0 +1,170 @@
+name: vllm_debug_sweep
+description: "vLLM model evaluation on clinical notes - debug mode with minimal samples"
+
+# Environment configuration
+environment_config:
+  import: "config/environments/debug.yaml"
+  runtime:
+    max_samples: 2  # Minimal samples for quick debugging
+    use_azure: false  # vLLM doesn't use Azure
+    vllm_endpoint: "http://localhost:8000/v1"  # Default vLLM endpoint
+    run_gold_error_eval: false  
+  parameters:
+    event_types:
+      - "pneumonitis"
+      - "myocarditis"
+      - "colitis"
+      - "thyroiditis"
+      - "hepatitis"
+      - "dermatitis"
+  logging:
+    level: "DEBUG"  # More verbose logging for debugging
+
+# Override settings
+overrides:
+  max_parallel: 1  # Run experiments sequentially
+  max_concurrent_runs: 3  # For OpenAI agent concurrency
+
+# Experiment configurations
+# IMPORTANT: Comment out all models except the one you're currently serving
+experiments: 
+
+  # Baselines - Zeroshot
+  - name: vllm_zeroshot_default
+    graph_type: openai_zeroshot
+    model_configs: 
+      # Uncomment ONE model that matches your running vLLM server:
+      - vllm-qwen3-32b
+      # - vllm-gemma3-27b
+      # - vllm-deepseek-r1-8b
+      # - vllm-deepseek-r1-distill-qwen-32b
+      # - vllm-qwen3-8b
+      # - vllm-qwen3-14b
+      # - vllm-gemma3-4b
+      # - vllm-gemma3-12b
+      # - vllm-medgemma3-27b
+    parameters:
+      batch_size: 2  # Smaller batch for debugging
+      vllm_endpoint: "http://localhost:8000/v1"
+    prompt_variant: "default"
+    description: "vLLM zeroshot baseline - debug"
+
+  # OpenAI Agent - Default
+  - name: vllm_openai_agent_default
+    graph_type: openai_agent
+    model_configs: 
+      # Uncomment ONE model that matches your running vLLM server:
+      - vllm-qwen3-32b
+      # - vllm-gemma3-27b
+      # - vllm-deepseek-r1-8b
+      # - vllm-deepseek-r1-distill-qwen-32b
+      # - vllm-qwen3-8b
+      # - vllm-qwen3-14b
+      # - vllm-gemma3-4b
+      # - vllm-gemma3-12b
+      # - vllm-medgemma3-27b
+    parameters:
+      batch_size: 2  # Smaller batch for debugging
+      vllm_endpoint: "http://localhost:8000/v1"
+    prompt_variant: "default"
+    description: "vLLM OpenAI Agent with default prompts - debug"
+
+  # OpenAI Agent - No Judge Ablation
+  - name: vllm_openai_agent_no_judge
+    graph_type: openai_agent
+    model_configs: 
+      # Uncomment ONE model that matches your running vLLM server:
+      - vllm-qwen3-32b
+      # - vllm-gemma3-27b
+      # - vllm-deepseek-r1-8b
+      # - vllm-deepseek-r1-distill-qwen-32b
+      # - vllm-qwen3-8b
+      # - vllm-qwen3-14b
+      # - vllm-gemma3-4b
+      # - vllm-gemma3-12b
+      # - vllm-medgemma3-27b
+    parameters:
+      batch_size: 2  # Smaller batch for debugging
+      vllm_endpoint: "http://localhost:8000/v1"
+    prompt_variant: "ablation_no_judge"
+    description: "vLLM OpenAI Agent without judge selection - debug"
+
+  # OpenAI Agent - Single Identifier Ablation
+  - name: vllm_openai_agent_single_identifier
+    graph_type: openai_agent
+    model_configs: 
+      # Uncomment ONE model that matches your running vLLM server:
+      - vllm-qwen3-32b
+      # - vllm-gemma3-27b
+      # - vllm-deepseek-r1-8b
+      # - vllm-deepseek-r1-distill-qwen-32b
+      # - vllm-qwen3-8b
+      # - vllm-qwen3-14b
+      # - vllm-gemma3-4b
+      # - vllm-gemma3-12b
+      # - vllm-medgemma3-27b
+    parameters:
+      batch_size: 2  # Smaller batch for debugging
+      vllm_endpoint: "http://localhost:8000/v1"
+    prompt_variant: "ablation_single"
+    description: "vLLM OpenAI Agent with single identifier per event - debug"
+
+  # Split Temporality - Default
+  - name: vllm_split_temporality_default
+    graph_type: agent_split_temporality
+    model_configs: 
+      # Uncomment ONE model that matches your running vLLM server:
+      - vllm-qwen3-32b
+      # - vllm-gemma3-27b
+      # - vllm-deepseek-r1-8b
+      # - vllm-deepseek-r1-distill-qwen-32b
+      # - vllm-qwen3-8b
+      # - vllm-qwen3-14b
+      # - vllm-gemma3-4b
+      # - vllm-gemma3-12b
+      # - vllm-medgemma3-27b
+    parameters:
+      batch_size: 2  # Smaller batch for debugging
+      vllm_endpoint: "http://localhost:8000/v1"
+    prompt_variant: "default"
+    description: "vLLM Split temporality with default prompts - debug"
+
+  # Split Temporality - No Judge Ablation
+  - name: vllm_split_temporality_no_judge
+    graph_type: agent_split_temporality
+    model_configs: 
+      # Uncomment ONE model that matches your running vLLM server:
+      - vllm-qwen3-32b
+      # - vllm-gemma3-27b
+      # - vllm-deepseek-r1-8b
+      # - vllm-deepseek-r1-distill-qwen-32b
+      # - vllm-qwen3-8b
+      # - vllm-qwen3-14b
+      # - vllm-gemma3-4b
+      # - vllm-gemma3-12b
+      # - vllm-medgemma3-27b
+    parameters:
+      batch_size: 2  # Smaller batch for debugging
+      vllm_endpoint: "http://localhost:8000/v1"
+    prompt_variant: "ablation_no_judge"
+    description: "vLLM Split temporality without judge selection - debug"
+
+  # Split Temporality - Single Identifier Ablation
+  - name: vllm_split_temporality_single_identifier
+    graph_type: agent_split_temporality
+    model_configs: 
+      # Uncomment ONE model that matches your running vLLM server:
+      - vllm-qwen3-32b
+      # - vllm-gemma3-27b
+      # - vllm-deepseek-r1-8b
+      # - vllm-deepseek-r1-distill-qwen-32b
+      # - vllm-qwen3-8b
+      # - vllm-qwen3-14b
+      # - vllm-gemma3-4b
+      # - vllm-gemma3-12b
+      # - vllm-medgemma3-27b
+    parameters:
+      batch_size: 2  # Smaller batch for debugging
+      vllm_endpoint: "http://localhost:8000/v1"
+    prompt_variant: "ablation_single"
+    description: "vLLM Split temporality with single identifier per event - debug" 

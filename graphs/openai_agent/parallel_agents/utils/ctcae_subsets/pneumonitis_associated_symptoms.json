@@ -1,0 +1,36 @@
+{
+    "Pneumonitis-associated symptoms": {
+        "Cough": {
+            "Definition": "A disorder characterized by sudden, often repetitive, spasmodic contraction of the thoracic cavity, resulting in violent release of air from the lungs and usually accompanied by a distinctive sound.",
+            "Grade 1": "Mild symptoms; nonprescription intervention indicated",
+            "Grade 2": "Moderate symptoms, medical intervention indicated; limiting instrumental ADL",
+            "Grade 3": "Severe symptoms; limiting self care ADL",
+            "Grade 4": " -",
+            "Grade 5": " -"
+        },
+        "Dyspnea": {
+            "Definition": "A disorder characterized by an uncomfortable sensation of difficulty breathing.",
+            "Grade 1": "Shortness of breath with moderate exertion",
+            "Grade 2": "Shortness of breath with minimal exertion; limiting instrumental ADL",
+            "Grade 3": "Shortness of breath at rest; limiting self care ADL",
+            "Grade 4": "Life-threatening consequences; urgent intervention indicated",
+            "Grade 5": "Death"
+        },
+        "Hypoxia": {
+            "Definition": "A disorder characterized by a decrease in the level of oxygen in the body.",
+            "Grade 1": " -",
+            "Grade 2": "Decreased oxygen saturation with exercise (e.g., pulse oximeter <88%); intermittent supplemental oxygen",
+            "Grade 3": "Decreased oxygen saturation at rest (e.g., pulse oximeter <88% or PaO2 <=55 mm Hg)",
+            "Grade 4": "Life-threatening airway compromise; urgent intervention indicated (e.g., tracheotomy or intubation)",
+            "Grade 5": "Death"
+        },
+        "Pneumonitis": {
+            "Definition": "A disorder characterized by inflammation focally or diffusely affecting the lung parenchyma.",
+            "Grade 1": "Asymptomatic; clinical or diagnostic observations only; intervention not indicated",
+            "Grade 2": "Symptomatic; medical intervention indicated; limiting instrumental ADL",
+            "Grade 3": "Severe symptoms; limiting self care ADL; oxygen indicated",
+            "Grade 4": "Life-threatening respiratory compromise; urgent intervention indicated (e.g., tracheotomy or intubation)",
+            "Grade 5": "Death"
+        }
+    }
+}
