@@ -42,6 +42,7 @@ Notes:
 - Outputs are generated locally under `outputs/` unless overridden.
 
 ## Setup
+Approximate install time on a typical desktop: 5-15 min.
 
 ### 1) Create environment
 
